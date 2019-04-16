@@ -6,7 +6,16 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 
   if (node.internal.type === `MarkdownRemark`) {
     const value = createFilePath({ node, getNode })
-    console.log(`\n`, value)
+    const parent = getNode(node.parent)
+    if (parent.internal.type === "File") {
+      console.log("\nname", parent.sourceInstanceName)
+      createNodeField({
+        name: `type`,
+        node,
+        value: parent.sourceInstanceName,
+      })
+    }
+    console.log(`\n`, node)
     createNodeField({
       name: `slug`,
       node,
@@ -19,7 +28,7 @@ exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
   return graphql(`
     {
-      allMarkdownRemark {
+      Pages: allMarkdownRemark(filter: { fields: { type: { eq: "pages" } } }) {
         edges {
           node {
             fields {
@@ -33,7 +42,7 @@ exports.createPages = ({ graphql, actions }) => {
       }
     }
   `).then(result => {
-    result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+    result.data.Pages.edges.forEach(({ node }) => {
       createPage({
         path: node.fields.slug,
         component: path.resolve(
@@ -44,6 +53,6 @@ exports.createPages = ({ graphql, actions }) => {
         },
       })
     })
-    console.log(JSON.stringify(result, null, 4))
+    //console.log(JSON.stringify(result, null, 4))
   })
 }
