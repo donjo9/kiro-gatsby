@@ -1,0 +1,22 @@
+backend:
+  name: test-repo
+
+media_folder: static/assets
+public_folder: assets
+
+collections:
+  - name: "pages"
+    label: "Sider"
+    files:
+      - file: "src/pages/index.md"
+        label: "Hovedside"
+        name: "index"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
+          - {label: Title, name: title, widget: string}
+      - file: "src/pages/om/index.md"
+        label: "Om"
+        name: "om"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "om-page"}
+          - {label: Title, name: title, widget: string}
