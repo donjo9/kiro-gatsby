@@ -1,4 +1,5 @@
 ---
 templateKey: index-page
-title: Jeg er index! :D
+title: 'åh nej, dette er en titel :D'
 ---
+
