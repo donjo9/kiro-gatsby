@@ -41,14 +41,14 @@ const LoerdagsInput = styled.input`
    {
     visibility: hidden;
     position: absolute;
-    &:checked + label > ul {
+    &:checked + label > div {
       height: 100%;
       padding: 20px 0 0 0;
     }
   }
 `
 
-const Loerdagsliste = styled.ul`
+const Loerdagsliste = styled.div`
    {
     line-height: 1.5;
     padding: 0;
@@ -63,6 +63,13 @@ const Loerdagsliste = styled.ul`
     height: 0px;
     overflow: hidden;
     transition: all 0.5s ease-in-out;
+  }
+`
+
+const ListContainer = styled.ul`
+   {
+    list-style-type: none;
+    padding: 0;
     li:first-child {
       margin-top: 20px;
     }
@@ -93,9 +100,11 @@ const aabningstider = props => {
           <Loerdagsliste>
             Følgende lørdage er der åben for akut opståede problemer i
             bevægeapparatet
-            <li>d. 12/3 - 2019</li>
-            <li>d. 12/3 - 2019</li>
-            <li>d. 12/3 - 2019</li>
+            <ListContainer>
+              <li>d. 12/3 - 2019</li>
+              <li>d. 12/3 - 2019</li>
+              <li>d. 12/3 - 2019</li>
+            </ListContainer>
           </Loerdagsliste>
         </label>
       </Loerdag>
