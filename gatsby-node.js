@@ -8,14 +8,12 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     const value = createFilePath({ node, getNode })
     const parent = getNode(node.parent)
     if (parent.internal.type === "File") {
-      console.log("\nname", parent.sourceInstanceName)
       createNodeField({
         name: `type`,
         node,
         value: parent.sourceInstanceName,
       })
     }
-    console.log(`\n`, node)
     createNodeField({
       name: `slug`,
       node,
@@ -53,6 +51,5 @@ exports.createPages = ({ graphql, actions }) => {
         },
       })
     })
-    //console.log(JSON.stringify(result, null, 4))
   })
 }
