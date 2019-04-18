@@ -11,12 +11,102 @@ collections:
       - file: "src/pages/index.md"
         label: "Hovedside"
         name: "index"
+        delete: false
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
-          - {label: Title, name: title, widget: string}
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "index-page",
+            }
+          - {
+              label: "Åbningstider",
+              name: "aabningstider",
+              widget: "list",
+              fields:
+                [
+                  {
+                    label: "Dag",
+                    name: "day",
+                    widget: "select",
+                    default: "Mandag",
+                    options:
+                      ["Mandag", "Tirsdag", "Onsdag", "Torsdag", "Fredag"],
+                  },
+                  {
+                    label: "Åben",
+                    name: "open",
+                    widget: "datetime",
+                    default: "08:00",
+                    format: "HH:mm",
+                    dateFormat: false,
+                    timeFormat: "H:mm",
+                  },
+                  {
+                    label: "Luk",
+                    name: "close",
+                    widget: "datetime",
+                    format: "HH:mm",
+                    dateFormat: false,
+                    timeFormat: "H:mm",
+                    default: "12:10",
+                  },
+                ],
+            }
+          - {
+              label: "Lørdage",
+              name: "saturdays",
+              widget: "list",
+              field:
+                {
+                  Label: "Dato",
+                  name: "date",
+                  widget: "date",
+                  format: "DD/MM/YYYY",
+                  dateFormat: "DD/MM/YYYY",
+                },
+            }
+          - {
+              label: "Kasser",
+              name: "boxes",
+              widget: "list",
+              fields:
+                [
+                  {
+                    label: "Overskrift",
+                    name: "title",
+                    widget: "string",
+                    required: true,
+                  },
+                  {
+                    label: "Body",
+                    name: "body",
+                    widget: "text",
+                    required: true,
+                  },
+                  {
+                    label: "Link",
+                    name: "link",
+                    widget: "string",
+                    required: true,
+                  },
+                  {
+                    label: "Knap tekst",
+                    name: "buttontext",
+                    widget: "string",
+                    default: "Læs mere!",
+                    required: true,
+                  },
+                ],
+            }
       - file: "src/pages/om/index.md"
         label: "Om"
         name: "om"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "om-page"}
-          - {label: Title, name: title, widget: string}
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "om-page",
+            }
+          - { label: "Title", name: "title", widget: "string" }
