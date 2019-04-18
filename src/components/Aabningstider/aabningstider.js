@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import { StaticQuery, graphql } from "gatsby"
 
 const Aabningstider = styled.div`
    {
@@ -79,18 +80,35 @@ const aabningstider = props => {
   return (
     <Aabningstider>
       <h2>Åbningstider</h2>
-      <div className="tider">
-        <div>Mandag:</div>
-        <div> 08.00 – 18.00</div>
-        <div>Tirsdag:</div>
-        <div> 08.00 – 18.00</div>
-        <div>Onsdag:</div>
-        <div> 08.00 – 18.00</div>
-        <div>Torsdag:</div>
-        <div> 08.00 – 18.00</div>
-        <div>Fredag:</div>
-        <div> 08.00 – 18.00</div>
-      </div>
+
+      <StaticQuery
+        query={graphql`
+          {
+            markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
+              frontmatter {
+                aabningstider {
+                  day
+                  open
+                  close
+                }
+              }
+            }
+          }
+        `}
+        render={data => {
+          const { markdownRemark } = data
+          const tider = markdownRemark.frontmatter.aabningstider.map(tider => (
+            <>
+              <div>{tider.day}:</div>
+              <div>
+                {tider.open} - {tider.close}
+              </div>
+            </>
+          ))
+          return <div className="tider">{tider}</div>
+        }}
+      />
+
       <Loerdag>
         <LoerdagsInput type="checkbox" id="loerdage" />
         <label htmlFor="loerdage">
