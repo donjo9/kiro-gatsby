@@ -78,9 +78,6 @@ const ListContainer = styled.ul`
 `
 const aabningstider = props => {
   return (
-    <Aabningstider>
-      <h2>Åbningstider</h2>
-
       <StaticQuery
         query={graphql`
           {
@@ -105,9 +102,10 @@ const aabningstider = props => {
               </div>
             </React.Fragment>
           ))
-          return <div className="tider">{tider}</div>
-        }}
-      />
+        return (
+          <Aabningstider>
+            <h2>Åbningstider</h2>
+            <div className="tider">{tider}</div>
 
       <Loerdag>
         <LoerdagsInput type="checkbox" id="loerdage" />
@@ -127,6 +125,9 @@ const aabningstider = props => {
         </label>
       </Loerdag>
     </Aabningstider>
+  )
+      }}
+    />
   )
 }
 
