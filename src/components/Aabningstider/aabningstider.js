@@ -98,12 +98,12 @@ const aabningstider = props => {
         render={data => {
           const { markdownRemark } = data
           const tider = markdownRemark.frontmatter.aabningstider.map(tider => (
-            <>
+            <React.Fragment key={tider.day}>
               <div>{tider.day}:</div>
               <div>
                 {tider.open} - {tider.close}
               </div>
-            </>
+            </React.Fragment>
           ))
           return <div className="tider">{tider}</div>
         }}
