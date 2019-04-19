@@ -78,54 +78,54 @@ const ListContainer = styled.ul`
 `
 const aabningstider = props => {
   return (
-      <StaticQuery
-        query={graphql`
-          {
-            markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
-              frontmatter {
-                aabningstider {
-                  day
-                  open
-                  close
-                }
+    <StaticQuery
+      query={graphql`
+        {
+          markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
+            frontmatter {
+              aabningstider {
+                day
+                open
+                close
               }
+              saturdays
             }
           }
-        `}
-        render={data => {
-          const { markdownRemark } = data
-          const tider = markdownRemark.frontmatter.aabningstider.map(tider => (
-            <React.Fragment key={tider.day}>
-              <div>{tider.day}:</div>
-              <div>
-                {tider.open} - {tider.close}
-              </div>
-            </React.Fragment>
-          ))
+        }
+      `}
+      render={data => {
+        const { markdownRemark } = data
+        const tider = markdownRemark.frontmatter.aabningstider.map(tider => (
+          <React.Fragment key={tider.day}>
+            <div>{tider.day}:</div>
+            <div>
+              {tider.open} - {tider.close}
+            </div>
+          </React.Fragment>
+        ))
+        const loerdage = markdownRemark.frontmatter.saturdays.map(lordag => (
+          <li key={lordag}>{lordag}</li>
+        ))
         return (
           <Aabningstider>
             <h2>Åbningstider</h2>
             <div className="tider">{tider}</div>
 
-      <Loerdag>
-        <LoerdagsInput type="checkbox" id="loerdage" />
-        <label htmlFor="loerdage">
-          Åbent udvalgte lørdage
-          <br />
-          Klik for datoer
-          <Loerdagsliste>
-            Følgende lørdage er der åben for akut opståede problemer i
-            bevægeapparatet
-            <ListContainer>
-              <li>d. 12/3 - 2019</li>
-              <li>d. 12/3 - 2019</li>
-              <li>d. 12/3 - 2019</li>
-            </ListContainer>
-          </Loerdagsliste>
-        </label>
-      </Loerdag>
-    </Aabningstider>
-  )
+            <Loerdag>
+              <LoerdagsInput type="checkbox" id="loerdage" />
+              <label htmlFor="loerdage">
+                Åbent udvalgte lørdage
+                <br />
+                Klik for datoer
+                <Loerdagsliste>
+                  Følgende lørdage er der åben for akut opståede problemer i
+                  bevægeapparatet
+                  <ListContainer>{loerdage}</ListContainer>
+                </Loerdagsliste>
+              </label>
+            </Loerdag>
+          </Aabningstider>
+        )
       }}
     />
   )
