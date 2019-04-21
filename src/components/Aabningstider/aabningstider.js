@@ -76,12 +76,46 @@ const ListContainer = styled.ul`
     }
   }
 `
+
+export const AaabningstiderTemplate = props => {
+  const tider = props.aabningstider.map(tider => (
+    <React.Fragment key={tider.day}>
+      <div>{tider.day}:</div>
+      <div>
+        {tider.open} - {tider.close}
+      </div>
+    </React.Fragment>
+  ))
+  const loerdage = props.saturdays.map(lordag => <li key={lordag}>{lordag}</li>)
+  return (
+    <Aabningstider>
+      <h2>Åbningstider</h2>
+      <div className="tider">{tider}</div>
+
+      <Loerdag>
+        <LoerdagsInput type="checkbox" id="loerdage" />
+        <label htmlFor="loerdage">
+          Åbent udvalgte lørdage
+          <br />
+          Klik for datoer
+          <Loerdagsliste>
+            Følgende lørdage er der åben for akut opståede problemer i
+            bevægeapparatet
+            <ListContainer>{loerdage}</ListContainer>
+          </Loerdagsliste>
+        </label>
+      </Loerdag>
+    </Aabningstider>
+  )
+}
 const aabningstider = props => {
   return (
     <StaticQuery
       query={graphql`
         {
-          markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
+          markdownRemark(
+            frontmatter: { templateKey: { eq: "aabningstider-component" } }
+          ) {
             frontmatter {
               aabningstider {
                 day
@@ -95,36 +129,11 @@ const aabningstider = props => {
       `}
       render={data => {
         const { markdownRemark } = data
-        const tider = markdownRemark.frontmatter.aabningstider.map(tider => (
-          <React.Fragment key={tider.day}>
-            <div>{tider.day}:</div>
-            <div>
-              {tider.open} - {tider.close}
-            </div>
-          </React.Fragment>
-        ))
-        const loerdage = markdownRemark.frontmatter.saturdays.map(lordag => (
-          <li key={lordag}>{lordag}</li>
-        ))
         return (
-          <Aabningstider>
-            <h2>Åbningstider</h2>
-            <div className="tider">{tider}</div>
-
-            <Loerdag>
-              <LoerdagsInput type="checkbox" id="loerdage" />
-              <label htmlFor="loerdage">
-                Åbent udvalgte lørdage
-                <br />
-                Klik for datoer
-                <Loerdagsliste>
-                  Følgende lørdage er der åben for akut opståede problemer i
-                  bevægeapparatet
-                  <ListContainer>{loerdage}</ListContainer>
-                </Loerdagsliste>
-              </label>
-            </Loerdag>
-          </Aabningstider>
+          <AaabningstiderTemplate
+            aabningstider={markdownRemark.frontmatter.aabningstider}
+            saturdays={markdownRemark.frontmatter.saturdays}
+          />
         )
       }}
     />

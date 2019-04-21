@@ -7,6 +7,13 @@ module.exports = {
         path: `${__dirname}/src/pages/`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `data`,
+        path: `${__dirname}/src/data/`,
+      },
+    },
     `gatsby-transformer-remark`,
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-styled-components`,

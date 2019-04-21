@@ -1,24 +1,24 @@
 backend:
-  name: git-gateway
+  name: test-repo
 
 media_folder: static/img
 public_folder: img
 
 collections:
   - name: "pages"
-    label: "Sider"
+    label: "Sideopsætning"
     files:
-      - file: "src/pages/index.md"
-        label: "Hovedside"
-        name: "index"
+      - file: "src/data/aabingstider.md"
+        label: "Åbingstider"
+        name: "aabingstider"
         delete: false
         fields:
           - {
-              label: "Template Key",
-              name: "templateKey",
-              widget: "hidden",
-              default: "index-page",
-            }
+            label: "Template Key",
+            name: "templateKey",
+            widget: "hidden",
+            default: "aabningstider-component"
+          }
           - {
               label: "Åbningstider",
               name: "aabningstider",
@@ -65,6 +65,17 @@ collections:
                   format: "DD/MM/YYYY",
                   dateFormat: "DD/MM/YYYY",
                 },
+            }
+      - file: "src/pages/index.md"
+        label: "Hovedside"
+        name: "index"
+        delete: false
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "index-page",
             }
           - {
               label: "Kasser",
