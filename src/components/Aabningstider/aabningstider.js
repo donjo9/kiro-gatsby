@@ -4,6 +4,8 @@ import { StaticQuery, graphql } from "gatsby"
 
 const Aabningstider = styled.div`
    {
+    background-color: var(--background);
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
