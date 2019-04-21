@@ -15,12 +15,17 @@ module.exports = {
       },
     },
     `gatsby-transformer-remark`,
-    `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-plugin-layout`,
       options: {
         component: require.resolve(`./src/layouts/index`),
+      },
+    },
+    {
+      resolve: "gatsby-plugin-netlify-cms",
+      options: {
+        modulePath: `${__dirname}/src/cms/cms.js`,
       },
     },
   ],
