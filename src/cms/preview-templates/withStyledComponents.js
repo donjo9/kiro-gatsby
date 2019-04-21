@@ -1,3 +1,4 @@
+import React from "react"
 import { StyleSheetManager } from "styled-components"
 
 const PreviewWithStyledComponents = ({ children }) => {
