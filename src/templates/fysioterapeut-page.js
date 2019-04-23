@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useMemo } from "react"
 import { graphql } from "gatsby"
 import Fag from "../components/Fag/fag"
 import Person from "../components/Personer/person"
@@ -6,30 +6,56 @@ import PersonContainer from "../components/Personer/personcontainer"
 import Sub from "../components/Sub/sub"
 import Subs from "../components/Sub/subs"
 
-const fysioterapeut = ({ data }) => {
+const FysioterapeutTemplate = props => {
+  const ansatte = useMemo(
+    () =>
+      props.ansatte.map(person => {
+        return (
+          <Person key={person.name} navn={person.name} img={person.img}>
+            {person.description}
+          </Person>
+        )
+      }),
+    [props.ansatte]
+  )
+
+  const specialer = useMemo(
+    () =>
+      props.special.map(speciale => (
+        <Sub
+          key={speciale.overskrift}
+          title={speciale.overskrift}
+          to={speciale.path}
+        >
+          {speciale.teaser}
+        </Sub>
+      )),
+    [props.special]
+  )
+  return (
+    <>
+      <Fag headline={props.overskrift} desciption={props.html} />
+      <Subs>{specialer}</Subs>
+      <PersonContainer>{ansatte}</PersonContainer>
+    </>
+  )
+}
+const fysioterapeut = ({ data, pageContext }) => {
   const { edges } = data.Ansatte
-  const ansatte = edges.map(({ node }) => {
-    const { frontmatter } = node
-    return (
-      <Person
-        key={frontmatter.name}
-        navn={frontmatter.name}
-        img={frontmatter.img}
-      >
-        {frontmatter.description}
-      </Person>
-    )
-  })
+  let ansatte = []
+  if (edges) {
+    ansatte = edges.map(({ node }) => node.frontmatter)
+  }
   const { frontmatter, html } = data.Content
-  const specialer = frontmatter.special.map(speciale => (
-    <Sub key={speciale.overskrift} title={speciale.overskrift}>{speciale.teaser}</Sub>
-  ))
 
   return (
     <>
-      <Fag headline={frontmatter.overskrift} desciption={html} />
-      <Subs>{specialer}</Subs>
-      <PersonContainer>{ansatte}</PersonContainer>
+      <FysioterapeutTemplate
+        overskrift={frontmatter.overskrift}
+        html={html}
+        ansatte={ansatte}
+        special={pageContext.special}
+      />
     </>
   )
 }
@@ -60,11 +86,6 @@ export const pageQuery = graphql`
       html
       frontmatter {
         overskrift
-        special {
-          overskrift
-          body
-          teaser
-        }
       }
     }
   }
