@@ -21,7 +21,7 @@ const fag = props => {
     <Fag>
       <FagHeader>
         <h1>{props.headline}</h1>
-        <span>{props.desciption}</span>
+        <span dangerouslySetInnerHTML={{ __html: props.desciption }}></span>
       </FagHeader>
     </Fag>
   )

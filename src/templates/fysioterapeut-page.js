@@ -1,28 +1,32 @@
 import React from "react"
-import {graphql} from "gatsby"
+import { graphql } from "gatsby"
 import Fag from "../components/Fag/fag"
 import Person from "../components/Personer/person"
 import PersonContainer from "../components/Personer/personcontainer"
 import Sub from "../components/Sub/sub"
 import Subs from "../components/Sub/subs"
 
-const fysioterapeut = ({data}) => {
-  const {edges} = data.Ansatte;
-  const ansatte = edges.map(({node}) => {
-    const {frontmatter} = node
-    return <Person key={frontmatter.name} navn={frontmatter.name} img={frontmatter.img}>{frontmatter.description}</Person>
+const fysioterapeut = ({ data }) => {
+  const { edges } = data.Ansatte
+  const { frontmatter } = data.Content
+  console.log(frontmatter)
+  const ansatte = edges.map(({ node }) => {
+    const { frontmatter } = node
+    return (
+      <Person
+        key={frontmatter.name}
+        navn={frontmatter.name}
+        img={frontmatter.img}
+      >
+        {frontmatter.description}
+      </Person>
+    )
   })
   return (
     <>
       <Fag
         headline="Fysioterapi"
-        desciption="Ex dolor laboris ullamco elit commodo sunt proident aute.
-        Minim aute voluptate laborum deserunt est elit incididunt
-        quis proident quis ipsum. Est voluptate id velit proident.
-        Cupidatat irure aliqua ipsum exercitation proident irure
-        enim proident sunt labore. Aliqua est minim sunt ex eiusmod
-        laboris anim aliqua qui minim esse et do reprehenderit. Duis
-        ipsum sunt ex deserunt."
+        desciption={frontmatter.description}
       />
       <Subs>
         <Sub title="Børnefys" selected={true}>
@@ -44,9 +48,7 @@ const fysioterapeut = ({data}) => {
           cumque error beatae nulla architecto.
         </Sub>
       </Subs>
-      <PersonContainer>
-        {ansatte}
-      </PersonContainer>
+      <PersonContainer>{ansatte}</PersonContainer>
     </>
   )
 }
@@ -69,6 +71,15 @@ export const pageQuery = graphql`
             description
           }
         }
+      }
+    }
+    Content: markdownRemark(
+      frontmatter: { templateKey: { eq: "fysioterapeut-page" } }
+    ) {
+      html
+      frontmatter {
+        overskrift
+
       }
     }
   }
