@@ -17,15 +17,11 @@ const Subject = styled.div`
 `
 
 const Sub = props => {
-  let subClass = ["sub"]
-  if (props.selected) {
-    subClass.push("selected")
-  }
   return (
     <Subject>
       <h2>{props.title}</h2>
       <p>{props.children}</p>
-      <Button to="/massage">Læs mere</Button>
+      <Button to={props.to}>Læs mere</Button>
     </Subject>
   )
 }
