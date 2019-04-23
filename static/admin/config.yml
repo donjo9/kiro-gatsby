@@ -17,7 +17,7 @@ collections:
             label: "Template Key",
             name: "templateKey",
             widget: "hidden",
-            default: "aabningstider-component"
+            default: "aabningstider-component",
           }
           - {
               label: "Åbningstider",
@@ -110,6 +110,51 @@ collections:
                   },
                 ],
             }
+      - file: "src/pages/fysioterapeut/index.md"
+        label: "Fysioterapeut"
+        name: "fysioterapeut"
+        fields:
+          - {
+            label: "Template Key",
+            name: "templateKey",
+            widget: "hidden",
+            default: "fysioterapeut-page"
+          }
+          - {
+            label: "Overskrift"
+            name: "overskrift",
+            widget: "string"
+            required: true
+          }
+          - {
+            label: "Beskrivelse",
+            name: "description",
+            widget: "markdown"
+            required: true
+          }
+          - {
+            label: "Specialer"
+            name: "special"
+            widget: "list"
+            fields: 
+            [
+              {
+                label: "Overskrift"
+                name: "overskrift"
+                widget: "string"
+              },
+              {
+                label: "Teaser"
+                name: "teaser"
+                widget: "text"
+              },
+              {
+                label: "Body"
+                name: "body"
+                widget: "markdown"
+              }
+            ]
+          }
       - file: "src/pages/klinikken/index.md"
         label: "Klinikken"
         name: "klinikken"
