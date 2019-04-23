@@ -1,5 +1,5 @@
 import React from "react"
-
+import {graphql} from "gatsby"
 import Person from "../components/Personer/person"
 import Fag from "../components/Fag/fag"
 import Persons from "../components/Personer/personcontainer"
