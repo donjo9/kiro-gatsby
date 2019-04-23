@@ -6,7 +6,6 @@ const Card = styled.div`
     position: relative;
     border-radius: 5px;
     background: var(--background);
-    margin: 15px;
     border: 0;
     padding: 10px;
     margin: 20px;
@@ -18,8 +17,6 @@ const Card = styled.div`
     flex-direction: column;
   }
   &::before {
-    z-index: -1;
-    background: #fff;
     position: relative;
     content: "";
     position: absolute;
