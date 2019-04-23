@@ -1,36 +1,23 @@
 import React from "react"
-import {graphql} from "gatsby"
-import Person from "../components/Personer/person"
-import Fag from "../components/Fag/fag"
-import Persons from "../components/Personer/personcontainer"
+import { graphql } from "gatsby"
+import FagTemplate from "./fag-template"
 
-const massage = ({ data }) => {
+const massage = ({ data, pageContext }) => {
   const { edges } = data.Ansatte
-  const ansatte = edges.map(({ node }) => {
-    const { frontmatter } = node
-    return (
-      <Person
-        key={frontmatter.name}
-        navn={frontmatter.name}
-        img={frontmatter.img}
-      >
-        {frontmatter.description}
-      </Person>
-    )
-  })
+  let ansatte = []
+  if (edges) {
+    ansatte = edges.map(({ node }) => node.frontmatter)
+  }
+  const { frontmatter, html } = data.Content
+
   return (
     <>
-      <Fag
-        headline="Massage"
-        desciption="Ex dolor laboris ullamco elit commodo sunt proident aute.
-    Minim aute voluptate laborum deserunt est elit incididunt
-    quis proident quis ipsum. Est voluptate id velit proident.
-    Cupidatat irure aliqua ipsum exercitation proident irure
-    enim proident sunt labore. Aliqua est minim sunt ex eiusmod
-    laboris anim aliqua qui minim esse et do reprehenderit. Duis
-    ipsum sunt ex deserunt."
+      <FagTemplate
+        overskrift={frontmatter.overskrift}
+        html={html}
+        ansatte={ansatte}
+        special={pageContext.special}
       />
-      <Persons>{ansatte}</Persons>
     </>
   )
 }
@@ -53,6 +40,14 @@ export const pageQuery = graphql`
             description
           }
         }
+      }
+    }
+    Content: markdownRemark(
+      frontmatter: { templateKey: { eq: "massage-page" } }
+    ) {
+      html
+      frontmatter {
+        overskrift
       }
     }
   }
