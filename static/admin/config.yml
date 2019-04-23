@@ -10,7 +10,7 @@ collections:
     delete: false
     files:
       - file: "src/data/aabingstider.md"
-        label: "Åbingstider"
+        label: "Åbningstider"
         name: "aabingstider"
         fields:
           - {
