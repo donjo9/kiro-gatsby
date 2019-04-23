@@ -1,5 +1,5 @@
 backend:
-  name: git-gateway
+  name: test-repo
 
 media_folder: static/img
 public_folder: img
@@ -14,11 +14,11 @@ collections:
         name: "aabingstider"
         fields:
           - {
-            label: "Template Key",
-            name: "templateKey",
-            widget: "hidden",
-            default: "aabningstider-component",
-          }
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "aabningstider-component",
+            }
           - {
               label: "Åbningstider",
               name: "aabningstider",
@@ -115,46 +115,34 @@ collections:
         name: "fysioterapeut"
         fields:
           - {
-            label: "Template Key",
-            name: "templateKey",
-            widget: "hidden",
-            default: "fysioterapeut-page"
-          }
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "fysioterapeut-page",
+            }
           - {
-            label: "Overskrift"
-            name: "overskrift",
-            widget: "string"
-            required: true
-          }
+              label: "Overskrift",
+              name: "overskrift",
+              widget: "string",
+              required: true,
+            }
           - {
-            label: "Beskrivelse",
-            name: "description",
-            widget: "markdown"
-            required: true
-          }
+              label: "Beskrivelse",
+              name: "description",
+              widget: "markdown",
+              required: true,
+            }
           - {
-            label: "Specialer",
-            name: "special",
-            widget: "list",
-            fields: 
-            [
-              {
-                label: "Overskrift",
-                name: "overskrift",
-                widget: "string",
-              },
-              {
-                label: "Teaser",
-                name: "teaser",
-                widget: "text",
-              },
-              {
-                label: "Body"
-                name: "body"
-                widget: "markdown"
-              }
-            ]
-          }
+              label: "Specialer",
+              name: "special",
+              widget: "list",
+              fields:
+                [
+                  { label: "Overskrift", name: "overskrift", widget: "string" },
+                  { label: "Teaser", name: "teaser", widget: "text" },
+                  { label: "Body", name: "body", widget: "markdown" },
+                ],
+            }
       - file: "src/pages/klinikken/index.md"
         label: "Klinikken"
         name: "klinikken"
@@ -171,27 +159,13 @@ collections:
     folder: "src/data/ansatte"
     create: true
     identifier_field: name
-    fields: 
+    fields:
+      - { label: "Navn", name: "name", widget: "string", required: true }
+      - { label: "Foto", name: "img", widget: "image", required: true }
+      - { label: "Beskrivelse", name: "description", widget: "text" }
       - {
-       label: "Navn",
-       name: "name",
-       widget: "string",
-       required: true
-      }
-      - {
-        label: "Foto",
-        name: "img",
-        widget: "image",
-        required: true
-      }
-      - {
-        label: "Beskrivelse",
-        name: "description",
-        widget: "text"
-      }
-      - {
-        label: "Kategori",
-        name: "type",
-        widget: "select",
-        options: ["Kiropraktor", "Massør", "Fysioterapeut"]
-      }
+          label: "Kategori",
+          name: "type",
+          widget: "select",
+          options: ["Kiropraktor", "Massør", "Fysioterapeut"],
+        }
