@@ -12,7 +12,6 @@ const Card = styled.div`
     border: 0;
     height: 300px;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
   }

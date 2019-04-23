@@ -6,6 +6,8 @@ const CardContainer = styled.div`
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 500px));
     justify-content: center;
+    margin: 10px;
+    grid-gap: 25px;
   }
 `
 
