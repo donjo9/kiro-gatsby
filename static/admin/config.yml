@@ -110,22 +110,22 @@ collections:
                   },
                 ],
             }
-      - file: "src/pages/om/index.md"
-        label: "Om"
-        name: "om"
+      - file: "src/pages/klinikken/index.md"
+        label: "Klinikken"
+        name: "klinikken"
         fields:
           - {
               label: "Template Key",
               name: "templateKey",
               widget: "hidden",
-              default: "om-page",
+              default: "klinikken-page",
             }
           - { label: "Title", name: "title", widget: "string" }
-  - name: "ansatte"
-    label: "Ansatte"
+  - label: "Ansatte"
+    name: "ansatte"
     folder: "src/data/ansatte"
     create: true
-    identifier_name: "name"
+    identifier_name: name
     fields: 
       - {
        label: "Navn",
