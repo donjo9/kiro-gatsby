@@ -68,12 +68,11 @@ const NavigationItem = styled.li`
 const Header = () => {
   return (
     <HeaderContainer>
+      <Link to="/">
       <Logo src={LogoPath} alt="Logo" />
+      </Link>
       <Navigation>
         <ul>
-          <NavigationItem>
-            <Link to="/">Hjem</Link>
-          </NavigationItem>
           <NavigationItem>
             <Link to="/kiropraktor">Kiropraktor</Link>
           </NavigationItem>
