@@ -131,6 +131,7 @@ collections:
               name: "body",
               widget: "markdown",
             }
+          - { label: "Title", name: "title", widget: "string" }
       - file: "src/pages/klinikken/index.md"
         label: "Klinikken"
         name: "klinikken"
