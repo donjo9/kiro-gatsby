@@ -1,5 +1,8 @@
 const path = require("path")
+const remark = require("remark")
+const remarkHTML = require("remark-html")
 const { createFilePath } = require(`gatsby-source-filesystem`)
+const { StringToSlug } = require("./src/utilities/utils")
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
@@ -7,6 +10,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   if (node.internal.type === `MarkdownRemark`) {
     const value = createFilePath({ node, getNode })
     const parent = getNode(node.parent)
+
     if (parent.internal.type === "File") {
       createNodeField({
         name: `type`,
@@ -34,6 +38,11 @@ exports.createPages = ({ graphql, actions }) => {
             }
             frontmatter {
               templateKey
+              special {
+                overskrift
+                body
+                teaser
+              }
             }
           }
         }
@@ -41,6 +50,31 @@ exports.createPages = ({ graphql, actions }) => {
     }
   `).then(result => {
     result.data.Pages.edges.forEach(({ node }) => {
+      let special = []
+      if (node.frontmatter.special) {
+        node.frontmatter.special.forEach(e => {
+          const o = StringToSlug(e.overskrift)
+          console.log("\n", o, "\n")
+          const htmlBody = remark()
+            .use(remarkHTML)
+            .processSync(e.body)
+            .toString()
+          console.log(htmlBody)
+          special.push({
+            path: node.fields.slug + o,
+            overskrift: e.overskrift,
+            teaser: e.teaser,
+          })
+          createPage({
+            path: node.fields.slug + o,
+            component: path.resolve(`./src/templates/specials-page.js`),
+            context: {
+              overskrift: e.overskrift,
+              body: htmlBody,
+            },
+          })
+        })
+      }
       createPage({
         path: node.fields.slug,
         component: path.resolve(
@@ -48,6 +82,7 @@ exports.createPages = ({ graphql, actions }) => {
         ),
         context: {
           slug: node.fields.slug,
+          special,
         },
       })
     })
