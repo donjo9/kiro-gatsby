@@ -54,12 +54,10 @@ exports.createPages = ({ graphql, actions }) => {
       if (node.frontmatter.special) {
         node.frontmatter.special.forEach(e => {
           const o = StringToSlug(e.overskrift)
-          console.log("\n", o, "\n")
           const htmlBody = remark()
             .use(remarkHTML)
             .processSync(e.body)
             .toString()
-          console.log(htmlBody)
           special.push({
             path: node.fields.slug + o,
             overskrift: e.overskrift,
