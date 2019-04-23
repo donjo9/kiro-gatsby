@@ -126,12 +126,14 @@ collections:
               widget: "string",
               required: true,
             }
+          - { label: "Beskrivelse", name: "body", widget: "markdown" }
           - {
-              label: "Beskrivelse",
-              name: "body",
-              widget: "markdown",
+              label: "Specialer",
+              name: "special",
+              widget: "list",
+              fields:
+                { label: "Overskrift", name: "overskrift", widget: "string" },
             }
-          - { label: "Title", name: "title", widget: "string" }
       - file: "src/pages/klinikken/index.md"
         label: "Klinikken"
         name: "klinikken"
