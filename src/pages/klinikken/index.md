@@ -1,5 +1,5 @@
 ---
-templateKey: om-page
+templateKey: klinikken-page
 title: 'Hej Kathrine :D'
 ---
 

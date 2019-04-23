@@ -87,7 +87,7 @@ const Header = () => {
             <Link to="/goderaad">Gode råd</Link>
           </NavigationItem>
           <NavigationItem>
-            <Link to="/om">Om</Link>
+            <Link to="/klinikken">Klinikken</Link>
           </NavigationItem>
         </ul>
       </Navigation>

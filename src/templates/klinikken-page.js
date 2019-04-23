@@ -8,7 +8,7 @@ export default ({ data }) => {
 
 export const pageQuery = graphql`
   query OmPageTemplate {
-    markdownRemark(frontmatter: { templateKey: { eq: "om-page" } }) {
+    markdownRemark(frontmatter: { templateKey: { eq: "klinikken-page" } }) {
       frontmatter {
         title
       }
