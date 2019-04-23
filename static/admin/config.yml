@@ -141,7 +141,7 @@ collections:
       }
       - {
         label: "Beskrivelse",
-        name: "descrioption",
+        name: "description",
         widget: "text"
       }
       - {
