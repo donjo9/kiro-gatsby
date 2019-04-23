@@ -23,6 +23,9 @@
     "netlify-cms": "^2.9.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "remark": "^10.0.1",
+    "remark-html": "^9.0.0",
+    "remark-preset-lint-recommended": "^3.0.2",
     "styled-components": "^4.2.0"
   },
   "devDependencies": {
