@@ -4,6 +4,7 @@ import Aabningstider from "../components/Aabningstider/aabningstider"
 import Card from "../components/Cards/card"
 import CardContainer from "../components/Cards/cardcontainer"
 import styled from "styled-components"
+import { Button } from "../components/buttons"
 
 const Index = styled.section`
    {
@@ -15,67 +16,53 @@ const Focus = styled.h1`
    {
     margin: 20px 10px;
     font-size: 24px;
-    }
+  }
 `
 
 const Body = styled.section`
    {
     margin: 10px;
-    }
+  }
 `
-
-export default ({ data }) => {
-  const { frontmatter } = data.markdownRemark
-  console.log(frontmatter.title)
+export const IndexPageTemplate = props => {
+  const boxes = props.boxes.map(box => {
+    return (
+      <Card key={box.title + box.link}>
+        <Focus>{box.title}</Focus>
+        <Body>{box.body}</Body>
+        <Button to={box.link}>{box.buttontext}</Button>
+      </Card>
+    )
+  })
   return (
     <Index>
       <CardContainer>
         <Card>
           <Aabningstider />
         </Card>
-        <Card>
-          <section>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe
-            voluptate mollitia amet voluptas ducimus eligendi repellat atque
-            tenetur! Illum numquam distinctio eligendi. Voluptatum, nisi sit
-            maiores assumenda tempora reprehenderit nulla.
-          </section>
-          <Focus>
-            <h1>Focus!</h1>
-          </Focus>
-        </Card>
-        <Card>
-          <Focus>
-            <h1>Focus!</h1>
-          </Focus>
-          <section>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe
-            voluptate mollitia amet voluptas ducimus eligendi repellat atque
-            tenetur! Illum numquam distinctio eligendi. Voluptatum, nisi sit
-            maiores assumenda tempora reprehenderit nulla.
-          </section>
-        </Card>
-        <Card>
-          <section>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe
-            voluptate mollitia amet voluptas ducimus eligendi repellat atque
-            tenetur! Illum numquam distinctio eligendi. Voluptatum, nisi sit
-            maiores assumenda tempora reprehenderit nulla.
-          </section>
-          <Focus>
-            <h1>Focus!</h1>
-          </Focus>
-        </Card>
+        {boxes}
       </CardContainer>
     </Index>
   )
 }
 
+const index = ({ data }) => {
+  const { frontmatter } = data.markdownRemark
+  return <IndexPageTemplate boxes={frontmatter.boxes} />
+}
+
+export default index
+
 export const pageQuery = graphql`
   query IndexPageTemplate {
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
-        title
+        boxes {
+          body
+          buttontext
+          link
+          title
+        }
       }
     }
   }
