@@ -1,7 +1,7 @@
 ---
 templateKey: fysioterapeut-page
 overskrift: Fysioterapi
-description: >-
+body: >-
   Ex dolor laboris ullamco elit commodo sunt proident aute. Minim aute voluptate
   laborum deserunt est elit incididunt quis proident quis ipsum. Est voluptate
   id velit proident. Cupidatat irure aliqua ipsum exercitation proident irure
@@ -15,28 +15,5 @@ description: >-
 
 
   ## hvad laver du ?
-special:
-  - body: >-
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro,
-      accusantium soluta. Pariatur commodi dicta aliquid quaerat doloremque
-      veniam voluptas, unde quia molestiae repellat corporis asperiores cumque
-      error beatae nulla architecto.
-    overskrift: Børnefys
-    teaser: >-
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro,
-      accusantium soluta. Pariatur commodi dicta aliquid quaerat doloremque
-      veniam voluptas, unde quia molestiae repellat corporis asperiores cumque
-      error beatae nulla architecto.
-  - body: >-
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro,
-      accusantium soluta. Pariatur commodi dicta aliquid quaerat doloremque
-      veniam voluptas, unde quia molestiae repellat corporis asperiores cumque
-      error beatae nulla architecto.
-    overskrift: Kranio Sakral
-    teaser: >-
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro,
-      accusantium soluta. Pariatur commodi dicta aliquid quaerat doloremque
-      veniam voluptas, unde quia molestiae repellat corporis asperiores cumque
-      error beatae nulla architecto.
 ---
 

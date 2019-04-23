@@ -128,20 +128,8 @@ collections:
             }
           - {
               label: "Beskrivelse",
-              name: "description",
+              name: "body",
               widget: "markdown",
-              required: true,
-            }
-          - {
-              label: "Specialer",
-              name: "special",
-              widget: "list",
-              fields:
-                [
-                  { label: "Overskrift", name: "overskrift", widget: "string" },
-                  { label: "Teaser", name: "teaser", widget: "text" },
-                  { label: "Body", name: "body", widget: "markdown" },
-                ],
             }
       - file: "src/pages/klinikken/index.md"
         label: "Klinikken"
