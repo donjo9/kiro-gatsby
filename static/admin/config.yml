@@ -1,5 +1,5 @@
 backend:
-  name: git-gateway
+  name: test-repo
 
 media_folder: static/img
 public_folder: img
@@ -7,11 +7,11 @@ public_folder: img
 collections:
   - name: "pages"
     label: "Sideopsætning"
+    delete: false
     files:
       - file: "src/data/aabingstider.md"
         label: "Åbingstider"
         name: "aabingstider"
-        delete: false
         fields:
           - {
             label: "Template Key",
@@ -121,3 +121,32 @@ collections:
               default: "om-page",
             }
           - { label: "Title", name: "title", widget: "string" }
+  - name: "ansatte"
+    label: "Ansatte"
+    folder: "src/data/ansatte"
+    create: true
+    identifier_name: "name"
+    fields: 
+      - {
+       label: "Navn",
+       name: "name",
+       widget: "string",
+       required: true
+      }
+      - {
+        label: "Foto",
+        name: "img",
+        widget: "image",
+        required: true
+      }
+      - {
+        label: "Beskrivelse",
+        name: "descrioption",
+        widget: "text"
+      }
+      - {
+        label: "Kategori",
+        name: "type",
+        widget: "select",
+        options: ["Kiropraktor", "Massør", "Fysioterapeut"]
+      }
