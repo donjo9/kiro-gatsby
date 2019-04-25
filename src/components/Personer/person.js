@@ -14,7 +14,7 @@ const Personale = styled.div`
     background: var(--background);
   }
   & h3 {
-    color: rgb(190, 190, 190);
+    color: white;
   }
 
   & img {
