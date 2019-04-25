@@ -237,3 +237,11 @@ collections:
           widget: "select",
           options: ["Kiropraktor", "Massør", "Fysioterapeut"],
         }
+  - label: "Gode Råd"
+    name: "goderaad"
+    folder: "src/data/raad"
+    create: true
+    identifier_field: overskrift
+    fields:
+      - { label: "Overskrift", name: "overskrift", widget: "string" }
+      - { label: "Råd", name: "raad", widget: "text" }
