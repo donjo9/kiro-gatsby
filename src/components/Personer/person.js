@@ -9,8 +9,9 @@ const Personale = styled.div`
     flex-direction: column;
     margin: 8px;
     padding: 8px;
-    border: 1px solid rgba(0, 0, 0, 0.3);
-    background: rgba(0, 0, 0, 0.2);
+    box-shadow: 1px -1px 5px var(--highlight), -1px 1px 5px var(--highlight2);
+    border-radius: 10px;
+    background: var(--background);
   }
   & h3 {
     color: rgb(190, 190, 190);
