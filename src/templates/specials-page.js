@@ -3,6 +3,7 @@ import styled from "styled-components"
 
 const Container = styled.section`
    {
+    margin: 0px 15px;
     background-color: var(--background);
     box-shadow: 1px -1px 5px var(--highlight), -1px 1px 5px var(--highlight2);
     border-radius: 10px;
@@ -27,7 +28,6 @@ const Title = styled.div`
         to right,
         var(--background),
         var(--highlight),
-
         var(--background)
       );
     }
