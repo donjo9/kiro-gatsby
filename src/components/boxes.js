@@ -43,5 +43,6 @@ export const Body = styled.div`
    {
     background-color: var(--background);
     margin: 0;
+    padding: 15px 0;
   }
 `
