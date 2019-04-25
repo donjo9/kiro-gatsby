@@ -1,6 +1,7 @@
 import React from "react"
 import { Button } from "../buttons"
 import styled from "styled-components"
+import {Title} from "../boxes"
 
 const Subject = styled.div`
    {
@@ -19,7 +20,7 @@ const Subject = styled.div`
 const Sub = props => {
   return (
     <Subject>
-      <h2>{props.title}</h2>
+      <Title>{props.title}</Title>
       <p>{props.children}</p>
       <Button to={props.to}>Læs mere</Button>
     </Subject>
