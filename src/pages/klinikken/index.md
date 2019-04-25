@@ -1,8 +1,9 @@
 ---
 templateKey: klinikken-page
+overskrift: >-
+  Kiropraktorhuset Slagelse er klinikken for hele familien. Vi er specialister i
+  at behandle børn, unge, voksne og ældre.
 ---
-Kiropraktorhuset Slagelse er klinikken for hele familien. Vi er specialister i at behandle børn, unge, voksne og ældre.
-
 **Kiropraktoruddannelsen er en 5-årig universitetsuddannelse efterfulgt af 1 års turnus. Uddannelsen er på lige fod med den almene lægeuddannelse og der samlæses de første tre studieår.**
 
 Kiropraktik er et speciale indenfor behandling af smerte og funktionsforstyrrelser i bevægeapparatet. Kiropraktoren er den faggruppe, som ser og behandler flest patienter med ryg – og/eller nakkelidelser.
@@ -12,8 +13,6 @@ Kiropraktik er et speciale indenfor behandling af smerte og funktionsforstyrrels
 En kiropraktor behandler problemer med funktionen og bevægeligheden af led, muskler, skelet – og nervesystemet. Tilbyder desuden rådgivning/vejledning, undervisning, øvelser og specifik træning og genoptræning. Dette enten i eget regi eller i samarbejde med andre relevante faggrupper udefra.
 
 Kiropraktoren er højt specialiseret i at justere ryggen og kroppens led ved at frigøre og normalisere leddenes bevægelighed med specifikke tryk. Derved optimeres kroppens funktion og din daglige kunnen.
-
- 
 
 **Kiropraktoren kan foretage relevante digitale røntgenundersøgelser ved din første henvendelse.**
 
