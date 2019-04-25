@@ -13,7 +13,7 @@ export const Container = styled.section`
 export const Title = styled.div`
    {
     background-color: var(--background);
-    display: inline;
+    display: inline-block;
     background-size: 1px 1em;
     position: relative;
     text-align: center;
