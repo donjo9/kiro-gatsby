@@ -1,6 +1,7 @@
 const StringToSlug = string =>
   string
     .replace(/\s/g, "-")
+    .replace(/\//g, "-")
     .replace(/æ/g, "ae")
     .replace(/ø/g, "oe")
     .replace(/å/g, "aa")
