@@ -22,6 +22,7 @@ module.exports = {
         component: require.resolve(`./src/layouts/index`),
       },
     },
+    `gatsby-plugin-react-helmet`,
     {
       resolve: "gatsby-plugin-netlify-cms",
       options: {
