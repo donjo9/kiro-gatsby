@@ -1,6 +1,6 @@
 ---
 name: Bjarne Halvorsen
-img: /img/bjarne.jpg
+img: /img/bjarne-f20x30.jpg
 description: >-
   Ex dolor laboris ullamco elit commodo sunt proident aute. Minim aute voluptate
   laborum deserunt est elit incididunt quis proident quis ipsum. Est voluptate
