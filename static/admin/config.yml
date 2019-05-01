@@ -110,6 +110,26 @@ collections:
                   },
                 ],
             }
+          - {
+              label: "SEO",
+              name: "SEO",
+              widget: "object",
+              fields:
+                [
+                  { label: "Side Titel", name: "seotitle", widget: "string" },
+                  {
+                    label: "Beskrivelse",
+                    name: "seodescription",
+                    widget: "text",
+                  },
+                  {
+                    label: "Tags",
+                    name: "seotags",
+                    widget: "list",
+                    fields: [{ label: "Tag", name: "tag", widget: "string" }],
+                  },
+                ],
+            }
       - file: "src/pages/kiropraktor/index.md"
         label: "Kiropraktor"
         name: "kiropraktor"
@@ -136,6 +156,26 @@ collections:
                   { label: "Overskrift", name: "overskrift", widget: "string" },
                   { label: "Teaser", name: "teaser", widget: "text" },
                   { label: "Beskrivelse", name: "body", widget: "markdown" },
+                ],
+            }
+          - {
+              label: "SEO",
+              name: "SEO",
+              widget: "object",
+              fields:
+                [
+                  { label: "Side Titel", name: "seotitle", widget: "string" },
+                  {
+                    label: "Beskrivelse",
+                    name: "seodescription",
+                    widget: "text",
+                  },
+                  {
+                    label: "Tags",
+                    name: "seotags",
+                    widget: "list",
+                    fields: [{ label: "Tag", name: "tag", widget: "string" }],
+                  },
                 ],
             }
       - file: "src/pages/massage/index.md"
@@ -166,6 +206,26 @@ collections:
                   { label: "Beskrivelse", name: "body", widget: "markdown" },
                 ],
             }
+          - {
+              label: "SEO",
+              name: "SEO",
+              widget: "object",
+              fields:
+                [
+                  { label: "Side Titel", name: "seotitle", widget: "string" },
+                  {
+                    label: "Beskrivelse",
+                    name: "seodescription",
+                    widget: "text",
+                  },
+                  {
+                    label: "Tags",
+                    name: "seotags",
+                    widget: "list",
+                    fields: [{ label: "Tag", name: "tag", widget: "string" }],
+                  },
+                ],
+            }
       - file: "src/pages/fysioterapeut/index.md"
         label: "Fysioterapeut"
         name: "fysioterapeut"
@@ -192,6 +252,26 @@ collections:
                   { label: "Overskrift", name: "overskrift", widget: "string" },
                   { label: "Teaser", name: "teaser", widget: "text" },
                   { label: "Beskrivelse", name: "body", widget: "markdown" },
+                ],
+            }
+          - {
+              label: "SEO",
+              name: "SEO",
+              widget: "object",
+              fields:
+                [
+                  { label: "Side Titel", name: "seotitle", widget: "string" },
+                  {
+                    label: "Beskrivelse",
+                    name: "seodescription",
+                    widget: "text",
+                  },
+                  {
+                    label: "Tags",
+                    name: "seotags",
+                    widget: "list",
+                    fields: [{ label: "Tag", name: "tag", widget: "string" }],
+                  },
                 ],
             }
       - file: "src/pages/zoneterapeut/index.md"
@@ -222,6 +302,26 @@ collections:
                   { label: "Beskrivelse", name: "body", widget: "markdown" },
                 ],
             }
+          - {
+              label: "SEO",
+              name: "SEO",
+              widget: "object",
+              fields:
+                [
+                  { label: "Side Titel", name: "seotitle", widget: "string" },
+                  {
+                    label: "Beskrivelse",
+                    name: "seodescription",
+                    widget: "text",
+                  },
+                  {
+                    label: "Tags",
+                    name: "seotags",
+                    widget: "list",
+                    fields: [{ label: "Tag", name: "tag", widget: "string" }],
+                  },
+                ],
+            }
       - file: "src/pages/klinikken/index.md"
         label: "Klinikken"
         name: "klinikken"
@@ -239,6 +339,26 @@ collections:
               required: true,
             }
           - { label: "Beskrivelse", name: "body", widget: "markdown" }
+          - {
+              label: "SEO",
+              name: "SEO",
+              widget: "object",
+              fields:
+                [
+                  { label: "Side Titel", name: "seotitle", widget: "string" },
+                  {
+                    label: "Beskrivelse",
+                    name: "seodescription",
+                    widget: "text",
+                  },
+                  {
+                    label: "Tags",
+                    name: "seotags",
+                    widget: "list",
+                    fields: [{ label: "Tag", name: "tag", widget: "string" }],
+                  },
+                ],
+            }
   - label: "Ansatte"
     name: "ansatte"
     folder: "src/data/ansatte"
