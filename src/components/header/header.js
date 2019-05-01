@@ -83,7 +83,7 @@ const Header = () => {
             <Link to="/fysioterapeut">Fysioterapeut</Link>
           </NavigationItem>
           <NavigationItem>
-            <Link to="/goderaad">Gode råd</Link>
+            <Link to="/priser">Priser</Link>
           </NavigationItem>
           <NavigationItem>
             <Link to="/klinikken">Klinikken</Link>
