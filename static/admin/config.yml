@@ -138,6 +138,34 @@ collections:
                   { label: "Beskrivelse", name: "body", widget: "markdown" },
                 ],
             }
+      - file: "src/pages/zoneterapeut/index.md"
+        label: "Zoneterapeut"
+        name: "zoneterapeut"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "zoneterapeut-page",
+            }
+          - {
+              label: "Overskrift",
+              name: "overskrift",
+              widget: "string",
+              required: true,
+            }
+          - { label: "Beskrivelse", name: "body", widget: "markdown" }
+          - {
+              label: "Specialer",
+              name: "special",
+              widget: "list",
+              fields:
+                [
+                  { label: "Overskrift", name: "overskrift", widget: "string" },
+                  { label: "Teaser", name: "teaser", widget: "text" },
+                  { label: "Beskrivelse", name: "body", widget: "markdown" },
+                ],
+            }
       - file: "src/pages/klinikken/index.md"
         label: "Klinikken"
         name: "klinikken"

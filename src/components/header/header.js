@@ -69,7 +69,7 @@ const Header = () => {
   return (
     <HeaderContainer>
       <Link to="/">
-      <Logo src={LogoPath} alt="Logo" />
+        <Logo src={LogoPath} alt="Logo" />
       </Link>
       <Navigation>
         <ul>
@@ -81,6 +81,9 @@ const Header = () => {
           </NavigationItem>
           <NavigationItem>
             <Link to="/fysioterapeut">Fysioterapeut</Link>
+          </NavigationItem>
+          <NavigationItem>
+            <Link to="/zoneterapeut">Zoneterapeut</Link>
           </NavigationItem>
           <NavigationItem>
             <Link to="/priser">Priser</Link>
