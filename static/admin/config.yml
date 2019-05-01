@@ -110,6 +110,62 @@ collections:
                   },
                 ],
             }
+      - file: "src/pages/kiropraktor/index.md"
+        label: "Kiropraktor"
+        name: "kiropraktor"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "kiropraktor-page",
+            }
+          - {
+              label: "Overskrift",
+              name: "overskrift",
+              widget: "string",
+              required: true,
+            }
+          - { label: "Beskrivelse", name: "body", widget: "markdown" }
+          - {
+              label: "Specialer",
+              name: "special",
+              widget: "list",
+              fields:
+                [
+                  { label: "Overskrift", name: "overskrift", widget: "string" },
+                  { label: "Teaser", name: "teaser", widget: "text" },
+                  { label: "Beskrivelse", name: "body", widget: "markdown" },
+                ],
+            }
+      - file: "src/pages/massage/index.md"
+        label: "Massør"
+        name: "massage"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "massage-page",
+            }
+          - {
+              label: "Overskrift",
+              name: "overskrift",
+              widget: "string",
+              required: true,
+            }
+          - { label: "Beskrivelse", name: "body", widget: "markdown" }
+          - {
+              label: "Specialer",
+              name: "special",
+              widget: "list",
+              fields:
+                [
+                  { label: "Overskrift", name: "overskrift", widget: "string" },
+                  { label: "Teaser", name: "teaser", widget: "text" },
+                  { label: "Beskrivelse", name: "body", widget: "markdown" },
+                ],
+            }
       - file: "src/pages/fysioterapeut/index.md"
         label: "Fysioterapeut"
         name: "fysioterapeut"
@@ -183,62 +239,6 @@ collections:
               required: true,
             }
           - { label: "Beskrivelse", name: "body", widget: "markdown" }
-      - file: "src/pages/kiropraktor/index.md"
-        label: "Kiropraktor"
-        name: "kiropraktor"
-        fields:
-          - {
-              label: "Template Key",
-              name: "templateKey",
-              widget: "hidden",
-              default: "kiropraktor-page",
-            }
-          - {
-              label: "Overskrift",
-              name: "overskrift",
-              widget: "string",
-              required: true,
-            }
-          - { label: "Beskrivelse", name: "body", widget: "markdown" }
-          - {
-              label: "Specialer",
-              name: "special",
-              widget: "list",
-              fields:
-                [
-                  { label: "Overskrift", name: "overskrift", widget: "string" },
-                  { label: "Teaser", name: "teaser", widget: "text" },
-                  { label: "Beskrivelse", name: "body", widget: "markdown" },
-                ],
-            }
-      - file: "src/pages/massage/index.md"
-        label: "Massør"
-        name: "massage"
-        fields:
-          - {
-              label: "Template Key",
-              name: "templateKey",
-              widget: "hidden",
-              default: "massage-page",
-            }
-          - {
-              label: "Overskrift",
-              name: "overskrift",
-              widget: "string",
-              required: true,
-            }
-          - { label: "Beskrivelse", name: "body", widget: "markdown" }
-          - {
-              label: "Specialer",
-              name: "special",
-              widget: "list",
-              fields:
-                [
-                  { label: "Overskrift", name: "overskrift", widget: "string" },
-                  { label: "Teaser", name: "teaser", widget: "text" },
-                  { label: "Beskrivelse", name: "body", widget: "markdown" },
-                ],
-            }
   - label: "Ansatte"
     name: "ansatte"
     folder: "src/data/ansatte"
@@ -254,11 +254,3 @@ collections:
           widget: "select",
           options: ["Kiropraktor", "Massør", "Fysioterapeut"],
         }
-  - label: "Gode Råd"
-    name: "goderaad"
-    folder: "src/data/raad"
-    create: true
-    identifier_field: overskrift
-    fields:
-      - { label: "Overskrift", name: "overskrift", widget: "string" }
-      - { label: "Råd", name: "raad", widget: "text" }
