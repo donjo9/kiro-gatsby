@@ -239,17 +239,6 @@ collections:
                   { label: "Beskrivelse", name: "body", widget: "markdown" },
                 ],
             }
-      - file: "src/pages/klinikken/index.md"
-        label: "Klinikken"
-        name: "klinikken"
-        fields:
-          - {
-              label: "Template Key",
-              name: "templateKey",
-              widget: "hidden",
-              default: "klinikken-page",
-            }
-          - { label: "Title", name: "title", widget: "string" }
   - label: "Ansatte"
     name: "ansatte"
     folder: "src/data/ansatte"
