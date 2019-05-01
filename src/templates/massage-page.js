@@ -25,7 +25,7 @@ const massage = ({ data, pageContext }) => {
 export default massage
 
 export const pageQuery = graphql`
-  {
+  query Massage($maxWidth: Int, $quality: Int) {
     Ansatte: allMarkdownRemark(
       filter: {
         frontmatter: { type: { eq: "Massør" } }
@@ -36,7 +36,13 @@ export const pageQuery = graphql`
         node {
           frontmatter {
             name
-            img
+            img {
+              childImageSharp {
+                fluid(maxWidth: $maxWidth, quality: $quality) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
             description
           }
         }

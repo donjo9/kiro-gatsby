@@ -3,10 +3,11 @@ const remark = require("remark")
 const remarkHTML = require("remark-html")
 const { createFilePath } = require(`gatsby-source-filesystem`)
 const { StringToSlug } = require("./src/utilities/utils")
+const { fmImagesToRelative } = require('gatsby-remark-relative-images')
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
-
+  fmImagesToRelative(node) // convert image paths for gatsby images
   if (node.internal.type === `MarkdownRemark`) {
     const value = createFilePath({ node, getNode })
     const parent = getNode(node.parent)
@@ -81,6 +82,8 @@ exports.createPages = ({ graphql, actions }) => {
         context: {
           slug: node.fields.slug,
           special,
+          maxWidth: 400,
+          quality: 92
         },
       })
     })

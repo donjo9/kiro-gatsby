@@ -26,7 +26,7 @@ const fysioterapeut = ({ data, pageContext }) => {
 export default fysioterapeut
 
 export const pageQuery = graphql`
-  {
+  query Fys($maxWidth: Int, $quality: Int) {
     Ansatte: allMarkdownRemark(
       filter: {
         frontmatter: { type: { eq: "Fysioterapeut" } }
@@ -37,7 +37,13 @@ export const pageQuery = graphql`
         node {
           frontmatter {
             name
-            img
+            img {
+              childImageSharp {
+                fluid(maxWidth: $maxWidth, quality: $quality) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
             description
           }
         }

@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import Img from "gatsby-image"
 
 const Personale = styled.div`
    {
@@ -30,7 +31,7 @@ const Personale = styled.div`
 const person = props => {
   return (
     <Personale>
-      <img src={props.img} alt={props.img} />
+      <Img fluid={props.img.childImageSharp.fluid} alt={props.navn} />
       <h3>{props.navn}</h3>
       <span>{props.children}</span>
     </Personale>
