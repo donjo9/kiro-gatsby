@@ -22,7 +22,8 @@ module.exports = {
         path: `${__dirname}/src/data/`,
       },
     },
-    'gatsby-plugin-sharp',
+    "gatsby-plugin-netlify",
+    "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     {
       resolve: "gatsby-transformer-remark",
