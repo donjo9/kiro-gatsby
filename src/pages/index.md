@@ -2,13 +2,13 @@
 templateKey: index-page
 boxes:
   - body: >-
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe voluptate
-      mollitia amet voluptas ducimus eligendi repellat atque tenetur! Illum
-      numquam distinctio eligendi. Voluptatum, nisi sit maiores assumenda
-      tempora reprehenderit nulla.
+      Husets eneste fysioterapeut står klar til at vejlede dig. Fysioterapeuten
+      behandler med forskellige manuelle teknikker, så din krop bliver afspændt
+      og afbalanceret. Læs mere om de forskellige manuelle teknikker, og om
+      holdtræning ved at trykke herunder
     buttontext: Læs mere!
     link: /fysioterapeut
-    title: Mere fys for pengene!
+    title: Fysioterapi
   - body: >-
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe voluptate
       mollitia amet voluptas ducimus eligendi repellat atque tenetur! Illum
@@ -38,5 +38,15 @@ boxes:
     buttontext: Læs mere!
     link: /zoneterapeut
     title: Zoneterapi i den gode zone
+SEO:
+  seodescription: |-
+    Specialister i bevægeapparatet  
+    ÅBNINGSTIDER  
+    Mandag kl. 08.00 - 18.00
+    Tirsdag kl. 08.00 - 18.00
+    Onsdag kl. 08.00 - 18.00
+    Torsdag kl. 08.00 - 18.00
+    Fredag kl. 08.00 - 18.00
+  seotitle: KiropraktorHuset Slagelse - Book tid på 58 53 45 55
 ---
 
