@@ -12,7 +12,7 @@ const Subject = styled.div`
     border-radius: 10px;
     box-shadow: 1px -1px 5px var(--highlight), -1px 1px 5px var(--highlight2);
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
   }
 `
@@ -22,7 +22,7 @@ const Sub = props => {
     <Subject>
       <Title>{props.title}</Title>
       <p>{props.children}</p>
-      <Button to={props.to}>Læs mere</Button>
+      <Button style={{marginTop: "auto"}}to={props.to}>Læs mere</Button>
     </Subject>
   )
 }
