@@ -1,11 +1,15 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Aabningstider from "../components/Aabningstider/aabningstider"
-import Card from "../components/Cards/card"
+import CardComponent, { Card } from "../components/Cards/card"
 import CardContainer from "../components/Cards/cardcontainer"
 import styled from "styled-components"
 import { Button } from "../components/buttons"
 
+const CardTider = styled(Card)`
+  min-height: auto;
+  grid-column: 1 / -1;
+`
 const Index = styled.section`
    {
     padding: 10px;
@@ -27,20 +31,22 @@ const Body = styled.section`
 export const IndexPageTemplate = props => {
   const boxes = props.boxes.map(box => {
     return (
-      <Card key={box.title + box.link}>
+      <CardComponent key={box.title + box.link}>
         <Focus>{box.title}</Focus>
         <Body>{box.body}</Body>
-        <Button to={box.link}>{box.buttontext}</Button>
-      </Card>
+        <Button style={{ marginTop: "auto" }} to={box.link}>
+          {box.buttontext}
+        </Button>
+      </CardComponent>
     )
   })
   return (
     <Index>
       <CardContainer>
-        <Card>
-          <Aabningstider />
-        </Card>
         {boxes}
+        <CardTider>
+          <Aabningstider />
+        </CardTider>
       </CardContainer>
     </Index>
   )
