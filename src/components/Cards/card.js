@@ -1,8 +1,8 @@
 import React from "react"
 import styled from "styled-components"
 
-const Card = styled.div`
-   {
+export const Card = styled.div`
+   
     position: relative;
     border-radius: 5px;
     background: var(--background);
@@ -10,11 +10,12 @@ const Card = styled.div`
     padding: 10px;
     margin: 20px;
     border: 0;
-    height: 300px;
+    min-height: 300px;
     display: flex;
+    justify-content: flex-start
     align-items: center;
     flex-direction: column;
-  }
+  
   &::before {
     position: relative;
     content: "";
@@ -49,8 +50,8 @@ const Card = styled.div`
   }
 `
 
-const card = props => {
+const CardComponent = props => {
   return <Card>{props.children}</Card>
 }
 
-export default card
+export default CardComponent
