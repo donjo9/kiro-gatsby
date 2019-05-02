@@ -110,7 +110,7 @@ export const AaabningstiderTemplate = props => {
     </Aabningstider>
   )
 }
-const aabningstider = props => {
+const aabningstider = () => {
   return (
     <StaticQuery
       query={graphql`
