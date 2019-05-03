@@ -24,6 +24,13 @@ module.exports = {
     },
     "gatsby-plugin-netlify",
     "gatsby-plugin-sharp",
+    {
+        resolve: "gatsby-plugin-google-tagmanager",
+        options: {
+            id: "GTM-FF22QZW",
+            includeInDevelopment: false,
+        }
+    },
     "gatsby-transformer-sharp",
     {
       resolve: "gatsby-transformer-remark",
