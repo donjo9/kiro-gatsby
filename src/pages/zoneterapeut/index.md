@@ -8,5 +8,10 @@ special:
   - overskrift: Zoneterapi til baby/børn
     body: "Jeg har specialiseret\_mig i zoneterapi til babyer. Din baby behøver ikke være ret gammel for at kunne modtage zoneterapi, det er ofte nemmere at behandle babyer, da de reagerer hurtigt på\_behandling. Zoneterapi er en god behandling til forebyggelse af sygdom uanset, hvor gammel børnene er.\n\nBabyzoneterapi er en nænsom måde at behandle din baby på, med mine hænder trykker jeg på og\_under babys fødder. Det er ren nydelse og afslapning for dem.\n\nMåske har du gjort dig nogle tanker om hvad babyzoneterapi kan hjælpe på, det er der mange der gør, her beskriver jeg det nærmere.​\n\nHvorfor nu vælge zoneterapi til baby? ​\n\n* Fordi babyzoneterapi er en naturlig og afslappende behandlingsform, hvor jeg med mine hænder gør en stor forskel for babyer og deres familier.\n* Fordi babyzoneterapi styrker kroppen og øger din babys sundhed og velvære. Der er ofte god effekt efter 3-5 gange, ofte hurtigere kommer din baby i trivsel, hvilket gør at hele jeres familie\_får det bedre. Når baby har det godt - har familien det også godt.\_\n\nHvilke symptomer har babyerne typisk, når de får zoneterapi?\n\n* Mavekneb\n* Søvnproblemer\n* Forkølelse\n* Kronisk forkølelse\n* Forstoppelse\n* Uro\_\n* Gråd\n* Kolik\n* Astmatisk og bronkitis\n* Mellemørebetændelse\n* Øreproblemer/ondt i ørerne\n* Børnemigræne\n* Hovedpine"
     teaser: "Jeg har specialiseret\_mig i zoneterapi til babyer. Din baby behøver ikke være ret gammel for at kunne modtage zoneterapi, det er ofte nemmere at behandle babyer, da de reagerer hurtigt på\_behandling. Zoneterapi er en god behandling til forebyggelse af sygdom uanset, hvor gammel børnene er."
+SEO:
+  seodescription: Zoneterapi
+  seotags:
+    - tag: Zoneterapi
+  seotitle: Zoneterapi
 ---
 Ex dolor laboris ullamco elit commodo sunt proident aute.s Minim aute voluptate laborum deserunt est elit incididunt quis proident quis ipsum. Est voluptate id velit proident. Cupidatat irure aliqua ipsum exercitation proident irure enim proident sunt labore. Aliqua est minim sunt ex eiusmod laboris anim aliqua qui minim esse et do reprehenderit. Duis ipsum sunt ex deserunt.
