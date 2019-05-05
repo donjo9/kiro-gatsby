@@ -47,6 +47,8 @@ SEO:
     Onsdag kl. 08.00 - 18.00
     Torsdag kl. 08.00 - 18.00
     Fredag kl. 08.00 - 18.00
+  seotags:
+    - tag: KiropraktorHuset
   seotitle: KiropraktorHuset Slagelse - Book tid på 58 53 45 55
 ---
 
