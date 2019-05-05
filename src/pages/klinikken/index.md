@@ -1,6 +1,17 @@
 ---
 templateKey: klinikken-page
 overskrift: Kiropraktorhuset Slagelse er klinikken for hele familien.
+SEO:
+  seodescription: >-
+    Hos Kiropraktorhuset Slagelse bestræber vi os på at give patienterne den
+    behandling der bedst tilgodeser den enkeltes behov. Ikke alle patienter med
+    det samme problem har de samme behov for behandling.
+  seotags:
+    - tag: Zoneterapi
+    - tag: Kiropraktik
+    - tag: Massage
+    - tag: Fysioterapi
+  seotitle: Klinikken
 ---
 **Vi er specialister i at behandle børn, unge, voksne og ældre.**
 
