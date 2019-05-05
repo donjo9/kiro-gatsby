@@ -5,6 +5,7 @@ import CardComponent, { Card } from "../components/Cards/card"
 import CardContainer from "../components/Cards/cardcontainer"
 import styled from "styled-components"
 import { Button } from "../components/buttons"
+import SEO from "../components/SEO"
 
 const CardTider = styled(Card)`
   min-height: auto;
@@ -54,7 +55,13 @@ export const IndexPageTemplate = props => {
 
 const index = ({ data }) => {
   const { frontmatter } = data.markdownRemark
-  return <IndexPageTemplate boxes={frontmatter.boxes} />
+  const { SEO: SEOInformation } = frontmatter
+  return (
+    <>
+      <SEO SEOInformation={SEOInformation} />
+      <IndexPageTemplate boxes={frontmatter.boxes} />
+    </>
+  )
 }
 
 export default index
@@ -68,6 +75,13 @@ export const pageQuery = graphql`
           buttontext
           link
           title
+        }
+        SEO {
+          seodescription
+          seotitle
+          seotags {
+            tag
+          }
         }
       }
     }

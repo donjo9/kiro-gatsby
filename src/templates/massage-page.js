@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import FagTemplate from "./fag-template"
+import SEO from "../components/SEO"
 
 const massage = ({ data, pageContext }) => {
   const { edges } = data.Ansatte
@@ -9,9 +10,11 @@ const massage = ({ data, pageContext }) => {
     ansatte = edges.map(({ node }) => node.frontmatter)
   }
   const { frontmatter, html } = data.Content
+  const { SEO: SEOInformation } = frontmatter
 
   return (
     <>
+      <SEO SEOInformation={SEOInformation} />
       <FagTemplate
         overskrift={frontmatter.overskrift}
         html={html}
@@ -54,6 +57,13 @@ export const pageQuery = graphql`
       html
       frontmatter {
         overskrift
+        SEO {
+          seodescription
+          seotitle
+          seotags {
+            tag
+          }
+        }
       }
     }
   }
