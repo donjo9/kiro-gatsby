@@ -34,3 +34,9 @@ Kiropraktorerne er den faggruppe, som er førende indenfor forskning omkring nak
 Vi er et tværfagligt team af kiropraktorer, fysioterapeut, akupunktør, zoneterapeut og massører. Vores fælles ambition er at forbedre patienternes sundhed og livskvalitet.
 
 Vi har stor rutine i behandling af spædbørn for kolik og skævt baghoved.
+
+
+
+# Klage over behandling
+
+Du kan klage over den sundhedsfaglige behandling, du har fået. Herunder undersøgelse, diagnose og behandling samt information om og samtykke til behandling, journalføring og vores omgang med tavshedspligt. Desuden kan du klage over, hvis du ikke føler, at vi giver dig passende aktindsigt i din journal. På styrelsens hjemmeside kan du i detaljer læse om, hvad du kan klage over, og hvordan du gør det. I hovedtræk har du to valgmuligheder. Enten vælge at få sagen afgjort af Styrelsen for Patientsikkerhed, hvis du vil klage over behandlingsstedet, eller at vælge at få sagen afgjort af Sundhedsvæsenets Disciplinærnævn, hvis du klager over en eller flere konkrete sundhedspersoner.
