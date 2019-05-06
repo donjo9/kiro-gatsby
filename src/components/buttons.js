@@ -14,3 +14,5 @@ export const Button = styled(Link)`
   ${base}
 `
 export const ExtLink = styled.a(base)
+
+export const ButtonBase = base;

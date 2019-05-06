@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import { StaticQuery, graphql } from "gatsby"
-
+import { ButtonBase } from "../buttons"
 const Aabningstider = styled.div`
    {
     background-color: var(--background);
@@ -79,6 +79,11 @@ const ListContainer = styled.ul`
   }
 `
 
+const Attention = styled.div`
+  ${ButtonBase}
+  display: block;
+`
+
 export const AaabningstiderTemplate = props => {
   const tider = props.aabningstider.map(tider => (
     <React.Fragment key={tider.day}>
@@ -97,9 +102,11 @@ export const AaabningstiderTemplate = props => {
       <Loerdag>
         <LoerdagsInput type="checkbox" id="loerdage" />
         <label htmlFor="loerdage">
-          Åbent udvalgte lørdage
-          <br />
-          Klik for datoer
+          <Attention>
+            Åbent udvalgte lørdage
+            <br />
+            Klik for datoer
+          </Attention>
           <Loerdagsliste>
             Følgende lørdage er der åben for akut opståede problemer i
             bevægeapparatet
