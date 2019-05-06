@@ -10,6 +10,14 @@ import SEO from "../components/SEO"
 const CardTider = styled(Card)`
   min-height: auto;
   grid-column: 1 / -1;
+  @media (min-width: 1510px) {
+    position: absolute;
+    left: 0;
+  }
+  @media (min-width: 1000px) and (max-width: 1064px) {
+    position: absolute;
+    left: 0;
+  }
 `
 const Index = styled.section`
    {

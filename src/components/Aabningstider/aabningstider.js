@@ -46,7 +46,7 @@ const LoerdagsInput = styled.input`
     position: absolute;
     &:checked + label > div {
       height: 100%;
-      padding: 20px 0 0 0;
+      padding: 20px 10px 0 10px;
     }
   }
 `
@@ -54,11 +54,11 @@ const LoerdagsInput = styled.input`
 const Loerdagsliste = styled.div`
    {
     line-height: 1.5;
-    padding: 0;
+    padding: 0 10px;
     margin: 0;
     bottom: 0;
-    width: 60%;
-    left: 20%;
+    width: 100%;
+    left: 0;
     position: absolute;
     bottom: 0;
     background: rgba(33, 94, 129, 1);
