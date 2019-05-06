@@ -2,7 +2,6 @@ import React from "react"
 import Helmet from "react-helmet"
 
 const SEO = props => {
-  console.log(props.SEOInformation)
   const title = props.SEOInformation.seotitle || "Kiropraktorhuset Slagelse"
   const description =
     props.SEOInformation.seodescription ||
