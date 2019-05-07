@@ -61,10 +61,11 @@ const NavigationItem = styled.li`
       transform: scale(0, 1);
       transition: transform ease-in-out 250ms;
     }
+    a:focus::after,
     a:hover::after {
       transform: scale(1, 1);
     }
-    a:hover {
+    a:focus a:hover {
       color: var(--highlight);
       font-size: 16px;
       cursor: pointer;
