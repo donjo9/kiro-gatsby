@@ -43,6 +43,7 @@ exports.createPages = ({ graphql, actions }) => {
                 overskrift
                 body
                 teaser
+                enable
               }
             }
           }
@@ -54,6 +55,9 @@ exports.createPages = ({ graphql, actions }) => {
       let special = []
       if (node.frontmatter.special) {
         node.frontmatter.special.forEach(e => {
+          if(!e.enable) {
+            return
+          }
           const o = StringToSlug(e.overskrift)
           const htmlBody = remark()
             .use(remarkHTML)
