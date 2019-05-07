@@ -8,5 +8,6 @@ description: >-
   enim proident sunt labore. Aliqua est minim sunt ex eiusmod laboris anim
   aliqua qui minim esse et do reprehenderit. Duis ipsum sunt ex deserunt.
 type: Kiropraktor
+enable: true
 ---
 

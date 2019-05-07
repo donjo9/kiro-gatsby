@@ -31,7 +31,7 @@ export const pageQuery = graphql`
   query Zone($maxWidth: Int, $quality: Int) {
     Ansatte: allMarkdownRemark(
       filter: {
-        frontmatter: { type: { eq: "Zoneterapeut" } }
+        frontmatter: { type: { eq: "Zoneterapeut" }, enable: { eq: true } }
         fields: { type: { eq: "data" }, slug: { regex: "$/ansatte/" } }
       }
     ) {

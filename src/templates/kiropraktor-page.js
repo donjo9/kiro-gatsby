@@ -31,7 +31,7 @@ export const pageQuery = graphql`
   query Kiro($maxWidth: Int, $quality: Int) {
     Ansatte: allMarkdownRemark(
       filter: {
-        frontmatter: { type: { eq: "Kiropraktor" } }
+        frontmatter: { type: { eq: "Kiropraktor" }, enable: { eq: true } }
         fields: { type: { eq: "data" }, slug: { regex: "$/ansatte/" } }
       }
     ) {

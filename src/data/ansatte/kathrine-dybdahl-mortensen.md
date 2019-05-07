@@ -17,5 +17,5 @@ description: >-
   traditionel fysioterapeut, men en fysioterapeut med andre tiltag, og hvor hele
   kroppen er I fokus.
 type: Fysioterapeut
+enable: true
 ---
-

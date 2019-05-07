@@ -32,7 +32,7 @@ export const pageQuery = graphql`
   query Fys($maxWidth: Int, $quality: Int) {
     Ansatte: allMarkdownRemark(
       filter: {
-        frontmatter: { type: { eq: "Fysioterapeut" } }
+        frontmatter: { type: { eq: "Fysioterapeut" }, enable: { eq: true } }
         fields: { type: { eq: "data" }, slug: { regex: "$/ansatte/" } }
       }
     ) {

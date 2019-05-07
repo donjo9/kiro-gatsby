@@ -31,7 +31,7 @@ export const pageQuery = graphql`
   query Massage($maxWidth: Int, $quality: Int) {
     Ansatte: allMarkdownRemark(
       filter: {
-        frontmatter: { type: { eq: "Massør" } }
+        frontmatter: { type: { eq: "Massør" }, enable: { eq: true } }
         fields: { type: { eq: "data" }, slug: { regex: "$/ansatte/" } }
       }
     ) {
