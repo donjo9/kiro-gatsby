@@ -378,4 +378,4 @@ collections:
           widget: "select",
           options: ["Kiropraktor", "Massør", "Fysioterapeut", "Zoneterapeut"],
         }
-      - { label: "Aktiv", name: "enable", widget: "boolean", default: true },
+      - { label: "Aktiv", name: "enable", widget: "boolean", default: true }
