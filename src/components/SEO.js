@@ -23,6 +23,7 @@ const SEO = props => {
 
   return (
     <Helmet
+      defer={false}
       htmlAttributes={{
         lang: "da",
       }}
