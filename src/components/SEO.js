@@ -27,7 +27,6 @@ const SEO = props => {
       htmlAttributes={{
         lang: "da",
       }}
-      title={title}
       meta={[
         {
           name: `description`,
@@ -50,7 +49,9 @@ const SEO = props => {
           content: writenTags,
         },
       ]}
-    />
+    >
+      <title>{title}</title>
+    </Helmet>
   )
 }
 
