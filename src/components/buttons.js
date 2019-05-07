@@ -10,9 +10,19 @@ const base = {
   textDecoration: "none",
   boxShadow: "inset 0px 0px 4px var(--highlight2)",
 }
+
+export const hoverEffect = `transition: 250ms;
+&:hover,
+&:focus {
+    border: 1px solid var(--highlight);
+  }`
 export const Button = styled(Link)`
   ${base}
+  ${hoverEffect}
 `
-export const ExtLink = styled.a(base)
+export const ExtLink = styled.a`
+  ${base}
+  ${hoverEffect}
+`
 
-export const ButtonBase = base;
+export const ButtonBase = base

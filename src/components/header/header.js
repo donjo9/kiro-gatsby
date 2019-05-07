@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
 import LogoPath from "../../../static/img/logo-2.png"
-import { ButtonBase } from "../buttons"
+import { ButtonBase, hoverEffect } from "../buttons"
 
 const HeaderContainer = styled.header`
    {
@@ -83,6 +83,7 @@ const Booking = styled.a`
   font-size: 1.2rem;
   text-align: center;
   text-transform: uppercase;
+  ${hoverEffect}
 `
 
 const NavigationList = styled.ul`

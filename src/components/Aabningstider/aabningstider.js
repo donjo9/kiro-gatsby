@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import { StaticQuery, graphql } from "gatsby"
-import { ButtonBase } from "../buttons"
+import { ButtonBase, hoverEffect } from "../buttons"
 const Aabningstider = styled.div`
    {
     background-color: var(--background);
@@ -81,6 +81,7 @@ const ListContainer = styled.ul`
 
 const Attention = styled.div`
   ${ButtonBase}
+  ${hoverEffect}
   display: block;
 `
 
