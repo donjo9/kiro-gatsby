@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
 import LogoPath from "../../../static/img/logo-2.png"
+import { ButtonBase } from "../buttons"
 
 const HeaderContainer = styled.header`
    {
@@ -9,12 +10,20 @@ const HeaderContainer = styled.header`
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    flex-direction: column;
+    @media screen and (min-width: 1306px) {
+      flex-direction: row;
+    }
   }
+`
+const LogoLink = styled(Link)`
+  text-align: center;
 `
 const Logo = styled.img`
    {
     filter: invert(1);
     max-width: 100%;
+    margin: auto;
   }
 `
 const Navigation = styled.nav`
@@ -65,14 +74,28 @@ const NavigationItem = styled.li`
     }
   }
 `
+
+const Booking = styled.a`
+  ${ButtonBase}
+  margin: 1em 0;
+  max-height: 2.375em;
+  align-self: center;
+  font-size: 1.2rem;
+  text-align: center;
+  text-transform: uppercase;
+`
+
+const NavigationList = styled.ul`
+  margin: auto;
+`
 const Header = () => {
   return (
     <HeaderContainer>
-      <Link to="/">
+      <LogoLink to="/">
         <Logo src={LogoPath} alt="Logo" />
-      </Link>
+      </LogoLink>
       <Navigation>
-        <ul>
+        <NavigationList>
           <NavigationItem>
             <Link to="/kiropraktor">Kiropraktor</Link>
           </NavigationItem>
@@ -91,8 +114,15 @@ const Header = () => {
           <NavigationItem>
             <Link to="/klinikken">Klinikken</Link>
           </NavigationItem>
-        </ul>
+        </NavigationList>
       </Navigation>
+      <Booking
+        href="https://w3.kircacs.dk/cacs/clientLogin?0&clinicId=160"
+        target="_blank"
+        rel="noopener norefferer"
+      >
+        Book en tid nu
+      </Booking>
     </HeaderContainer>
   )
 }
