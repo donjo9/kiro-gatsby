@@ -156,6 +156,7 @@ collections:
                   { label: "Overskrift", name: "overskrift", widget: "string" },
                   { label: "Teaser", name: "teaser", widget: "text" },
                   { label: "Beskrivelse", name: "body", widget: "markdown" },
+                  { label: "Aktiv", name: "enable", widget: "boolean", default: true },
                 ],
             }
           - {
@@ -204,6 +205,7 @@ collections:
                   { label: "Overskrift", name: "overskrift", widget: "string" },
                   { label: "Teaser", name: "teaser", widget: "text" },
                   { label: "Beskrivelse", name: "body", widget: "markdown" },
+                  { label: "Aktiv", name: "enable", widget: "boolean", default: true },
                 ],
             }
           - {
@@ -252,6 +254,7 @@ collections:
                   { label: "Overskrift", name: "overskrift", widget: "string" },
                   { label: "Teaser", name: "teaser", widget: "text" },
                   { label: "Beskrivelse", name: "body", widget: "markdown" },
+                  { label: "Aktiv", name: "enable", widget: "boolean", default: true },
                 ],
             }
           - {
@@ -300,6 +303,7 @@ collections:
                   { label: "Overskrift", name: "overskrift", widget: "string" },
                   { label: "Teaser", name: "teaser", widget: "text" },
                   { label: "Beskrivelse", name: "body", widget: "markdown" },
+                  { label: "Aktiv", name: "enable", widget: "boolean", default: true },
                 ],
             }
           - {
@@ -372,5 +376,6 @@ collections:
           label: "Kategori",
           name: "type",
           widget: "select",
-          options: ["Kiropraktor", "Massør", "Fysioterapeut"],
+          options: ["Kiropraktor", "Massør", "Fysioterapeut", "Zoneterapeut"],
         }
+      - { label: "Aktiv", name: "enable", widget: "boolean", default: true },
