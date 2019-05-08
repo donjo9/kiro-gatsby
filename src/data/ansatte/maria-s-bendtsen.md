@@ -1,5 +1,5 @@
 ---
-name: Maria S Bendtsen
+name: Maria Salgaard Elwen
 img: /img/maria.jpg
 description: >-
   Ex dolor laboris ullamco elit commodo sunt proident aute. Minim aute voluptate
