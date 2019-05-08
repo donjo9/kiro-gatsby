@@ -1,6 +1,11 @@
 ---
 templateKey: kiropraktor-page
 overskrift: Kiropraktik
+special:
+  - overskrift: Babyer og børn
+    body: ggg
+    enable: false
+    teaser: Vi behandler mange børn i klinikken.
 SEO:
   seodescription: >-
     Vi har alle mange års klinisk og praktisk erfaring. KiropraktorHuset er
