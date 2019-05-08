@@ -4,7 +4,7 @@ overskrift: Kiropraktik
 special:
   - overskrift: Babyer og børn
     body: ggg
-    enable: false
+    enable: true
     teaser: Vi behandler mange børn i klinikken.
 SEO:
   seodescription: >-
