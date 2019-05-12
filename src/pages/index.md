@@ -5,17 +5,17 @@ boxes:
       Husets eneste fysioterapeut står klar til at vejlede dig. Fysioterapeuten
       behandler med forskellige manuelle teknikker, så din krop bliver afspændt
       og afbalanceret. Læs mere om de forskellige manuelle teknikker, og om
-      holdtræning ved at trykke herunder
+      holdtræning ved at trykke herunder.
+
+      Der ydes tilskud til behandlinger, hvis du er medlem af Danmark
     buttontext: Læs mere!
     link: /fysioterapeut
     title: Fysioterapi
   - body: >-
-      En kiropraktor er en autoriseret sundhedsperson, der beskæftiger sig med
-      undersøgelse, diagnose, forebyggelse og behandling af smertetilstande og
-      nedsat funktion i muskel- og skeletsystemet. Behandlingen består af flere
-      elementer: information og rådgivning, manuel behandling, kiropraktisk
-      manipulations-behandling, bløddelsbehandling, øvelser/genoptræning og
-      forebyggelse.
+      Kiropraktorerne behandler alt lige fra babyer, børn, voksne og ældre
+      mennesker.
+
+      Der ydes tilskud, hvis du er medlem af Danmark.
     buttontext: Læs NU!
     link: /kiropraktor
     title: Kiropraktor med et knæk!
@@ -44,6 +44,8 @@ boxes:
       det ikke kun er en årsag - men er flere forskellige ubalancer. Derfor er
       zoneterapi en meget populær behandlingsform. Zoneterapien kan styrke din
       krop og psyke og lindre bivirkninger.
+
+      Danmark yder tilskud, hvis du er medlem.
 
     buttontext: Læs mere!
     link: /zoneterapeut
