@@ -2,6 +2,17 @@
 templateKey: index-page
 boxes:
   - body: >-
+      En kiropraktor er specialist i undersøgelse og diagnostik samt behandling
+      og forebyggelse af gener i kroppens bevægeapparat. Ved bevægeapparatet
+      menes kroppens led, muskler, bindevæv og nervesystemet.
+
+      Vi behandler alt lige fra babyer, børn, voksne og ældre mennesker.
+
+      Der ydes tilskud, hvis du er medlem af Danmark.
+    buttontext: Læs NU!
+    link: /kiropraktor
+    title: Kiropraktor
+  - body: >-
       Husets eneste fysioterapeut står klar til at vejlede dig. Fysioterapeuten
       behandler med forskellige manuelle teknikker, så din krop bliver afspændt
       og afbalanceret. Læs mere om de forskellige manuelle teknikker, og om
@@ -11,14 +22,6 @@ boxes:
     buttontext: Læs mere!
     link: /fysioterapeut
     title: Fysioterapi
-  - body: >-
-      Kiropraktorerne behandler alt lige fra babyer, børn, voksne og ældre
-      mennesker.
-
-      Der ydes tilskud, hvis du er medlem af Danmark.
-    buttontext: Læs NU!
-    link: /kiropraktor
-    title: Kiropraktor med et knæk!
   - body: >
       Kiropraktorhuset i Slagelse tilbyder massage, der virker ved at
       gennemarbejde hver eneste muskel fra dens udspring til dens tilhæftning.
