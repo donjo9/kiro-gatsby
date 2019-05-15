@@ -45,6 +45,10 @@ exports.createPages = ({ graphql, actions }) => {
                 teaser
                 enable
               }
+              subtopic {
+                  title
+                  content
+              }
             }
           }
         }
@@ -78,6 +82,28 @@ exports.createPages = ({ graphql, actions }) => {
           })
         })
       }
+      let subtopic = []
+      if(node.frontmatter.subtopic) {
+        node.frontmatter.subtopic.forEach(e => {
+            const o = StringToSlug(e.title)
+            const htmlBody = remark()
+              .use(remarkHTML)
+              .processSync(e.content)
+              .toString()
+            subtopic.push({
+              path: node.fields.slug + o,
+              title: e.title,
+            })
+            createPage({
+              path: node.fields.slug + o,
+              component: path.resolve(`./src/templates/subtopics-page.js`),
+              context: {
+                title: e.title,
+                content: htmlBody,
+              },
+            })
+          })
+      }
       createPage({
         path: node.fields.slug,
         component: path.resolve(
@@ -86,6 +112,7 @@ exports.createPages = ({ graphql, actions }) => {
         context: {
           slug: node.fields.slug,
           special,
+          subtopic,
           maxWidth: 400,
           quality: 92
         },
