@@ -81,6 +81,19 @@ special:
       Frossen skulder
 
       Kalkskulder
+  - overskrift: K-Laser
+    body: "Flere skader behandles med særdeles god effekt herunder sportsskader. Desuden kroniske gener så som tennisalbue, musearm, knæproblemer etc. Hvis du er i tvivl, er du velkommen til at ringe og spørge en af vores kiropraktorer.Laser kan bruges alene eller i kombination med anden kiropraktisk behandling. Der kan højst være tale om behandlingsreaktioner i form af en forøget irritation, uro og murren i det behandlede område. Dette er ganske normalt og aftager i løbet af 12-24 timer.\r\n\n\r\n\nHer på klinikken bruger vi den nye kraftfulde K-laser der kan yde op til 12 watt. Antallet af behandlinger er individuelt, men som udgangspunkt kræver akutte skader ca. 6 behandlinger og skader af mere kronisk karakter ca.10-12 behandlinger. Bivirkninger efter laserbehandling er sjældne og kortvarige. Den hyppigste er tiltagende ømhed/smerter dagen efter behandlingen pga. øget blodcirkulation I området."
+    enable: true
+    teaser: >-
+      Laserbehandling virker smertelindrende og fremmer opheling af skader.
+      Laser reducerer desuden hævelse, betændelse, muskelkramper og stivhed.
+      Laserbehandling består af koncentreret energi, der trænger ned og påvirke
+      kroppens væv, helt ind til den enkelte celle på celleniveau og fremmer
+      kroppens naturlige reparationsmekanismer. Laserlys øger blodcirkulationen
+      og trækker væske, næringsstoffer og ilt med til det beskadigede område.
+      Laser øger hermed cellernes stofskifte og deres produktion af energi (ATP)
+      hvilket vil sige, at kroppens egne reparations mekanismer forbedres.
+      Helingstiden for akutte skader reduceres med op til 75%.
 SEO:
   seodescription: >-
     Vi har alle mange års klinisk og praktisk erfaring. KiropraktorHuset er
