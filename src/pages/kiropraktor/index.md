@@ -5,7 +5,44 @@ special:
   - overskrift: Babyer og børn
     body: ggg
     enable: true
-    teaser: Vi behandler mange børn i klinikken.
+    teaser: >-
+      Vi behandler mange børn i klinikken. Alt fra 3-måneders kolik til
+      KISS-KIDD syndrom, hvor tegn og symptomer kan være:
+
+
+      Forstyrret søvn (svært ved at falde i søvn, sover dårligt, skriger i
+      søvne, vågner brat)
+
+      Træg mave (forstoppelse)
+
+      Er urolig og ofte utilfreds.
+
+      Vanskeligheder med at holde hovedet i midten (efter 3 måneders alderen)
+
+      Vil ikke ligge på maven.
+
+      Skæv stilling af hovedet (tvangsstilling/yndlingsstilling)
+
+      Asymmetrisk og affladet baghoved, hvor håret er slidt asymmetrisk af.
+
+      Gnider baghovedet mod underlaget.
+
+      Asymmetrisk hovedfacon, ansigtsasymmetri.
+
+      Ligger med hovedet meget bagover.
+
+      Ensidig sovestilling, ligger som et C (banan)
+
+      Bevæger arm og ben mindre på én side.
+
+      Umodne hofter, ofte på én side.
+
+      Fodfejlstilling.
+
+      Skriger utrøsteligt.
+
+      Barnet har en ømhed i nakken og reagerer negativt, når man rører ved
+      nakken.
 SEO:
   seodescription: >-
     Vi har alle mange års klinisk og praktisk erfaring. KiropraktorHuset er
