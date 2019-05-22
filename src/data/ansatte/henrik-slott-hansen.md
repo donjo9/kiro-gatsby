@@ -2,11 +2,9 @@
 name: Henrik Slott Hansen
 img: /img/henrik.jpg
 description: >-
-  Ex dolor laboris ullamco elit commodo sunt proident aute. Minim aute voluptate
-  laborum deserunt est elit incididunt quis proident quis ipsum. Est voluptate
-  id velit proident. Cupidatat irure aliqua ipsum exercitation proident irure
-  enim proident sunt labore. Aliqua est minim sunt ex eiusmod laboris anim
-  aliqua qui minim esse et do reprehenderit. Duis ipsum sunt ex deserunt.
+  Henrik er uddannet kiropraktor fra SDU i Odense i 2001 og har arbejdet i
+  klinikken siden. 1. juli 2015 overtog Henrik klinikken og har siden stået for
+  den daglige drift.
 type: Kiropraktor
 enable: true
 ---
