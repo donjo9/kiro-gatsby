@@ -23,10 +23,10 @@ const priser = () => {
       </Body>
       <Title>DER KRÆVES INGEN LÆGEHENVISNING FOR TILSKUD</Title>
       <Body>
-        Honorarer og tilskud pr. 1. oktober 2018: Ifølge Landsoverenskomsten
+        Honorarer og tilskud pr. 1. april 2019: Ifølge Landsoverenskomsten
         mellem Dansk Kiropraktor Forening og Regionernes Lønnings- og Takstnævn.
       </Body>
-      <ExtLink style={{textTransform: "uppercase", marginTop: "15px", display: "block"}}href="https://www.danskkiropraktorforening.dk/media/1373/speciale-64-honoratabel-april-2019.pdf" target="_blank" rel="noopener norefferer">Klik for gældende priser</ExtLink>
+      <ExtLink style={{textTransform: "uppercase", marginTop: "15px", display: "block"}}href="https://www.danskkiropraktorforening.dk/media/1394/speciale-53-honorartabel-april-2019.pdf" target="_blank" rel="noopener norefferer">Klik for gældende priser</ExtLink>
     </Container>
   )
 }
