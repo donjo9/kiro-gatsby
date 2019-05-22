@@ -48,14 +48,17 @@ boxes:
       med hele kroppen med fokus på funktion, forstyrrelser, årsagerne og
       kroppens egen evne til at helbrede ubalancer.  
 
+
       Zoneterapi er for alle og kan også bruges til at vedligeholde et godt
       helbred. Det er en behandlingsmetode, hvor der med trykpåvirkning på og
       under fødderne søges at forbedre funktionen et andet sted på din krop.
 
+
       Zoneterapi har især en gavnlig virkning på moderne livsstilsygdomme, hvor
       det ikke kun er en årsag - men er flere forskellige ubalancer. Derfor er
-      zoneterapi en meget populær behandlingsform. Zoneterapien kan styrke din
-      krop og psyke og lindre bivirkninger.
+      zoneterapi en meget populær behandlingsform. 
+
+      Zoneterapien kan styrke din krop og psyke og lindre bivirkninger.
 
       Danmark yder tilskud, hvis du er medlem.
 
