@@ -1,10 +1,23 @@
 ---
 templateKey: index-page
 boxes:
-  - body: |-
+  - body: >-
       Vi behandler alt lige fra babyer, børn, voksne og ældre mennesker.
+
+
       Vi samarbejder med de fleste sundhedsordninger og -forsikringer.
+
+
       Der ydes tilskud, hvis du er medlem af Danmark.
+
+
+      INGEN VENTETID!!
+
+
+      Vi ved at også du har en travl hverdag. Derfor bestræber vi os på at
+      overholde tiderne, så du ikke skal vente. Vi har for det meste tider samme
+      dag, eller senest dagen efter. Der kan selvfølgelig forekomme perioder,
+      hvor dette ikke er muligt pga ferie, sygdom osv.
     buttontext: Læs NU!
     link: /kiropraktor
     title: Kiropraktor
