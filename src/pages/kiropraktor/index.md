@@ -94,6 +94,18 @@ special:
       Laser øger hermed cellernes stofskifte og deres produktion af energi (ATP)
       hvilket vil sige, at kroppens egne reparations mekanismer forbedres.
       Helingstiden for akutte skader reduceres med op til 75%.
+  - overskrift: Ældre
+    body: >-
+      Vi har mulighed for at røntgenfotografere så vi kan undersøge, hvor megen
+      slidgigt patienten har i ryg og hofter, inden vi vurderer, hvilken type
+      behandling, vi kan give vedkommende. På røntgenoptagelser kan vi også se
+      fremskreden osteoporose, også kaldet knogleskørhed, således at vi kan give
+      patienten den rette behandling, tilpasset både alder og knoglekvalitet.
+    enable: true
+    teaser: >-
+      Det er vigtigt for ældre mennesker at kunne bevæge sig, med så få smerter
+      som muligt. Vi tilpasser vores behandling til alderen og undersøger
+      patienten grundigt inden behandling påbegyndes. 
 SEO:
   seodescription: >-
     Vi har alle mange års klinisk og praktisk erfaring. KiropraktorHuset er
