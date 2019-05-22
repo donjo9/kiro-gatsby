@@ -393,6 +393,38 @@ collections:
                   },
                 ],
             }
+      - file: "src/pages/stillinger/index.md"
+        label: "Stillinger"
+        name: "stillinger"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "stillings-page",
+            }
+          - {
+              label: "Stilling",
+              name: "stilling",
+              widget: "list",
+              fields:
+                [
+                  {
+                    label: "Opslag",
+                    name: "opslag",
+                    widget: "object",
+                    fields:
+                      [
+                        {
+                          label: "Overskrift",
+                          name: "overskrift",
+                          widget: string,
+                        },
+                        { label: Beskrivelse, name: beskrivelse, widget: text },
+                      ],
+                  },
+                ],
+            }
   - label: "Ansatte"
     name: "ansatte"
     folder: "src/data/ansatte"
