@@ -1,13 +1,9 @@
 ---
 templateKey: index-page
 boxes:
-  - body: >-
-      En kiropraktor er specialist i undersøgelse og diagnostik samt behandling
-      og forebyggelse af gener i kroppens bevægeapparat. Ved bevægeapparatet
-      menes kroppens led, muskler, bindevæv og nervesystemet.
-
+  - body: |-
       Vi behandler alt lige fra babyer, børn, voksne og ældre mennesker.
-
+      Vi samarbejder med de fleste sundhedsordninger og -forsikringer.
       Der ydes tilskud, hvis du er medlem af Danmark.
     buttontext: Læs NU!
     link: /kiropraktor
