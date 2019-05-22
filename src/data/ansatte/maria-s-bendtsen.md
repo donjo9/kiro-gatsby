@@ -1,12 +1,7 @@
 ---
 name: Maria Salgaard Elwen
 img: /img/maria.jpg
-description: >-
-  Ex dolor laboris ullamco elit commodo sunt proident aute. Minim aute voluptate
-  laborum deserunt est elit incididunt quis proident quis ipsum. Est voluptate
-  id velit proident. Cupidatat irure aliqua ipsum exercitation proident irure
-  enim proident sunt labore. Aliqua est minim sunt ex eiusmod laboris anim
-  aliqua qui minim esse et do reprehenderit. Duis ipsum sunt ex deserunt.
+description: Maria er uddannet fra SDU i Odense i 2015.
 type: Kiropraktor
 enable: true
 ---
