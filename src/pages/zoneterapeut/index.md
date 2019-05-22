@@ -16,4 +16,4 @@ SEO:
     - tag: Zoneterapi
   seotitle: Zoneterapi
 ---
-Ex dolor laboris ullamco elit commodo sunt proident aute.s Minim aute voluptate laborum deserunt est elit incididunt quis proident quis ipsum. Est voluptate id velit proident. Cupidatat irure aliqua ipsum exercitation proident irure enim proident sunt labore. Aliqua est minim sunt ex eiusmod laboris anim aliqua qui minim esse et do reprehenderit. Duis ipsum sunt ex deserunt.
+Zoneterapi er for alle og kan også bruges til at vedligeholde et godt helbred. Det er en behandlingsmetode, hvor der med trykpåvirkning på og under fødderne søges at forbedre funktionen et andet sted på din krop.
