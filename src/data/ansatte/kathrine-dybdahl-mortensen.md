@@ -1,6 +1,6 @@
 ---
 name: Kathrine Dybdahl Mortensen
-img: /img/kathrine.jpg
+img: /img/kathrine-f20x30.jpg
 description: >-
   Kathrine er husets fysioterapeut. Alt fra holdtræning, børnebehandling, manuel
   behandling, øvelses vejledning og kranio-sakral terapi varetager Kathrine. 
