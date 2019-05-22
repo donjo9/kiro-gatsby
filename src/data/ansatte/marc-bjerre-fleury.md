@@ -1,6 +1,6 @@
 ---
 name: Marc Bjerre Fleury
-img: /img/marc.jpg
+img: /img/marc-f20x30.jpg
 description: >-
   Marc er uddannet kiropraktor fra Palmer i 1986. Han er et kendt ansigt på
   klinikken da han har arbejdet her alle årene.
