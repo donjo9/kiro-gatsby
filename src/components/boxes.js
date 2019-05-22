@@ -1,4 +1,3 @@
-
 import styled from "styled-components"
 
 export const Container = styled.section`
@@ -11,32 +10,30 @@ export const Container = styled.section`
   }
 `
 export const Title = styled.div`
-   {
-    background-color: var(--background);
-    display: inline-block;
-    background-size: 1px 1em;
-    position: relative;
+  background-color: var(--background);
+  display: inline-block;
+  background-size: 1px 1em;
+  position: relative;
+  text-align: center;
+  &::after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 3px;
     text-align: center;
-    &::after {
-      content: "";
-      width: 100%;
-      position: absolute;
-      left: 0;
-      bottom: -1px;
-      height: 3px;
-      text-align: center;
-      background: linear-gradient(
-        to right,
-        var(--background),
-        var(--highlight),
-        var(--background)
-      );
-    }
-    padding-bottom: 5px;
-    margin: 0;
-    font-size: 24px;
-    font-weight: 900;
+    background: linear-gradient(
+      to right,
+      var(--background),
+      var(--highlight),
+      var(--background)
+    );
   }
+  padding-bottom: 5px;
+  margin: 0 0 10px;
+  font-size: 24px;
+  font-weight: 900;
 `
 
 export const Body = styled.div`
@@ -45,4 +42,31 @@ export const Body = styled.div`
     margin: 0;
     padding: 15px 0;
   }
+`
+
+export const SubTitle = styled.h3`
+  background-color: var(--background);
+  display: inline-block;
+  background-size: 1px 1em;
+  position: relative;
+  text-align: center;
+  &::after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 3px;
+    text-align: center;
+    background: linear-gradient(
+      to right,
+      var(--background),
+      var(--highlight),
+      var(--background)
+    );
+  }
+  padding-bottom: 5px;
+
+  margin: 20px 0 0 0;
+  font-weight: 900;
 `

@@ -1,7 +1,27 @@
 import React from "react"
+import { graphql } from "gatsby"
+import { Container, Body, Title, SubTitle } from "../components/boxes"
 
 const Stilinger = ({ data }) => {
-  return <div>Stillinger {data.Content.id}</div>
+  const { Content } = data
+
+  const { frontmatter } = Content
+  const opslag = frontmatter.stilling.map(x => {
+    console.log(JSON.stringify(opslag, null, 2))
+    return (
+      <React.Fragment key={x.opslag.beskrivelse + x.opslag.overskrift}>
+        <SubTitle>{x.opslag.overskrift}</SubTitle>
+        <Body>{x.opslag.beskrivelse}</Body>
+      </React.Fragment>
+    )
+  })
+  return (
+    <Container>
+      <Title>Stillinger:</Title>
+      <br />
+      {opslag}
+    </Container>
+  )
 }
 
 export default Stilinger
@@ -11,7 +31,14 @@ export const pageQuery = graphql`
     Content: markdownRemark(
       frontmatter: { templateKey: { eq: "stillinger-page" } }
     ) {
-      id
+      frontmatter {
+        stilling {
+          opslag {
+            beskrivelse
+            overskrift
+          }
+        }
+      }
     }
   }
 `
