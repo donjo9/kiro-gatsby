@@ -22,7 +22,10 @@ export default ({ data, pageContext }) => {
       <Container>
         <Title>{Klinikken.frontmatter.overskrift}</Title>
         <Body dangerouslySetInnerHTML={{ __html: Klinikken.html }} />
-        <SubtopicContainer>{subtopics}</SubtopicContainer>
+        <SubtopicContainer>
+          {subtopics}
+          <Button to="/stillinger">Stillinger</Button>
+        </SubtopicContainer>
       </Container>
     </>
   )
