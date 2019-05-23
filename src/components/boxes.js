@@ -33,7 +33,7 @@ export const Title = styled.div`
   padding-bottom: 5px;
   margin: 0 0 10px;
   font-size: 24px;
-  font-weight: 900;
+  font-weight: bolder;
 `
 
 export const Body = styled.div`
@@ -68,5 +68,5 @@ export const SubTitle = styled.h3`
   padding-bottom: 5px;
 
   margin: 20px 0 0 0;
-  font-weight: 900;
+  font-weight: bolder;
 `
