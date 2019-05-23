@@ -9,6 +9,7 @@ const base = {
   textAlign: "center",
   textDecoration: "none",
   boxShadow: "inset 0px 0px 4px var(--highlight2)",
+  margin: "5px",
 }
 
 export const hoverEffect = `transition: 250ms;
