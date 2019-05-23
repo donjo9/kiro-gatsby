@@ -21,14 +21,10 @@ export const Title = styled.div`
     position: absolute;
     left: 0;
     bottom: -1px;
-    height: 3px;
+    height: 1px;
     text-align: center;
-    background: linear-gradient(
-      to right,
-      var(--background),
-      var(--highlight),
-      var(--background)
-    );
+    box-shadow: 1px -1px 2px var(--highlight), -1px 1px 2px var(--highlight2);
+    background-color: var(--highlight2);
   }
   padding-bottom: 5px;
   margin: 0 0 10px;
@@ -56,14 +52,10 @@ export const SubTitle = styled.h3`
     position: absolute;
     left: 0;
     bottom: -1px;
-    height: 3px;
+    height: 1px;
     text-align: center;
-    background: linear-gradient(
-      to right,
-      var(--background),
-      var(--highlight),
-      var(--background)
-    );
+    box-shadow: 1px -1px 2px var(--highlight), -1px 1px 2px var(--highlight2);
+    background-color: var(--highlight2);
   }
   padding-bottom: 5px;
 
