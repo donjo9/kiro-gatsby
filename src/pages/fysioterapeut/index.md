@@ -3,7 +3,61 @@ templateKey: fysioterapeut-page
 overskrift: Fysioterapi
 special:
   - overskrift: Holdtræning
-    body: "På klinikken har vi forskellige holdtræningstilbud. Dog har alle holdene det tilfælles, at de er superviseret af vores fysioterapeut Kathrine. \r\n\nKathrine har taget, diverse kurser indenfor stabilitetstræning af både voksne og børn, samt kurser I det sunde åndedræt. \r\n\nLæs herunder hvilke hold vi tilbyder. Har du spørgsmål til holdene så kontakt klinikken på 58 53 45 55. \r\n\n\r\n\n## Core-Fys 1 og 2: \r\n\nHoldet hvor der primært fokuseres  på maven og ryggen. Her trænes de stabiliserende muskler omkring vores rygsøjle. Der er to niveauer level 1 og 2. Core-Fys 1 starter med at bygge det gode fundament op, og derefter bliver kroppen gradvist stærkere og mere stabil til de mere avancerede øvelser. Core-Fys 2 er, for dem som træner i forvejen, men har brug for instruktion til at mærke, hvad den korrekte opspænding er, eller for dem som er gået videre fra hold 1. \r\n\nBegge hold forløber over 8 uger og koster 800 kr. i alt. Der ydes tilskud fra Danmark. Begge hold kræver at man selv, kan komme op og ned fra gulv. Ellers tages der hensyn til den enkelte deltager. \r\n\n\r\n\n## Hopla-Fys 1 og 2: \r\n\nBørneholdet, hvor den motoriske træning er i fokus. \r\n\nTræningen er med forskellige elementer, som styrker barnets naturlige udvikling. Der er derfor øje på, hvor det enkelte barn er henne motorisk, og hvordan vi naturligt får bygget dette videre.  Der vil være masser af sjov og leg, men også ro og bevægelser, hvor kroppen mærkes og sanses. \r\n\nHopla-Fys 1 henvender sig til børn i alderen 3 mdr-1 år. Hopla-Fys 2 henvender sig til børn i alderen 1-3 år.\r\n\nForældrene/bedsteforældrene er med på holdet, da det giver den bedste tryghed og støtte, at have sine nærmeste med. \r\n\nHoldet forløber over 6 gange á 60 min og koster 600 kr. Der ydes tilskud fra Danmark, hvis barnet er medlem."
+    body: >-
+      ![Holdtræning](/img/brk5-bml.jpeg "Holdtræning")
+
+
+      På klinikken har vi forskellige holdtræningstilbud. Dog har alle holdene
+      det tilfælles, at de er superviseret af vores fysioterapeut Kathrine. 
+
+
+      Kathrine har taget, diverse kurser indenfor stabilitetstræning af både
+      voksne og børn, samt kurser I det sunde åndedræt. 
+
+
+      Læs herunder hvilke hold vi tilbyder. Har du spørgsmål til holdene så
+      kontakt klinikken på 58 53 45 55. 
+
+
+      ## Core-Fys 1 og 2:
+
+
+      Holdet hvor der primært fokuseres  på maven og ryggen. Her trænes de
+      stabiliserende muskler omkring vores rygsøjle. Der er to niveauer level 1
+      og 2. Core-Fys 1 starter med at bygge det gode fundament op, og derefter
+      bliver kroppen gradvist stærkere og mere stabil til de mere avancerede
+      øvelser. Core-Fys 2 er, for dem som træner i forvejen, men har brug for
+      instruktion til at mærke, hvad den korrekte opspænding er, eller for dem
+      som er gået videre fra hold 1. 
+
+
+      Begge hold forløber over 8 uger og koster 800 kr. i alt. Der ydes tilskud
+      fra Danmark. Begge hold kræver at man selv, kan komme op og ned fra gulv.
+      Ellers tages der hensyn til den enkelte deltager. 
+
+
+      ## Hopla-Fys 1 og 2:
+
+
+      Børneholdet, hvor den motoriske træning er i fokus. 
+
+
+      Træningen er med forskellige elementer, som styrker barnets naturlige
+      udvikling. Der er derfor øje på, hvor det enkelte barn er henne motorisk,
+      og hvordan vi naturligt får bygget dette videre.  Der vil være masser af
+      sjov og leg, men også ro og bevægelser, hvor kroppen mærkes og sanses. 
+
+
+      Hopla-Fys 1 henvender sig til børn i alderen 3 mdr-1 år. Hopla-Fys 2
+      henvender sig til børn i alderen 1-3 år.
+
+
+      Forældrene/bedsteforældrene er med på holdet, da det giver den bedste
+      tryghed og støtte, at have sine nærmeste med. 
+
+
+      Holdet forløber over 6 gange á 60 min og koster 600 kr. Der ydes tilskud
+      fra Danmark, hvis barnet er medlem.
     enable: true
     teaser: >-
       På klinikken har vi forskellige holdtræningstilbud. Dog har alle holdene
