@@ -76,6 +76,8 @@ special:
       Kranio Sakral")
 
 
+
+
       Husets fysioterapeut Kathrine har taget kurser indenfor Dynamic
       Neuromuscular stabilization, DNS. DNS er et behandlingskoncept, som har
       den naturlige udvikling hos børnene i tankerne. 
