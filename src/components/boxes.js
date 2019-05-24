@@ -1,13 +1,12 @@
 import styled from "styled-components"
 
 export const Container = styled.section`
-   {
-    margin: 0px 15px;
-    background-color: var(--background);
-    box-shadow: 1px -1px 5px var(--highlight), -1px 1px 5px var(--highlight2);
-    border-radius: 10px;
-    padding: 15px;
-  }
+  margin: 0px 15px;
+  background-color: var(--background);
+  box-shadow: 1px -1px 5px var(--highlight), -1px 1px 5px var(--highlight2);
+  border-radius: 10px;
+  padding: 15px;
+  display: flow-root;
 `
 export const Title = styled.div`
   background-color: var(--background);
@@ -33,10 +32,23 @@ export const Title = styled.div`
 `
 
 export const Body = styled.div`
-   {
-    background-color: var(--background);
-    margin: 0;
-    padding: 15px 0;
+  background-color: var(--background);
+  margin: 0;
+  padding: 15px 0;
+  p {
+    position: relative;
+    img {
+      position: relative;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      max-height: 500px;
+      max-width: 100%;
+      float: right;
+      border-radius: 10px;
+      margin: 10px;
+      display: block;
+    }
   }
 `
 
