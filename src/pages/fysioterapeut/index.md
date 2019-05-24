@@ -31,6 +31,10 @@ special:
       ned langs rygsøjlen. 
 
 
+      ![Kranio-Sakral Terapi behandling](/img/kranio-sakral.jpg "Kranio-Sakral
+      Terapi behandling")
+
+
       Indenfor KST arbejdes der med den kranio-sakrale rytme, som er en slags
       puls, som føres rundt i kroppen. Men der kan komme ubalancer i denne puls.
       Årsagerne kan være stress, piskesmæld, slag eller stød, influenza eller
@@ -47,9 +51,6 @@ special:
       fordøjelsen. Derfor er KST også rigtig godt til børn og spædbørn. Både
       fordi det er blidt og nænsomt, men også fordi mange små børn har problemer
       med mave/tarm funktionen.
-
-
-      ![Kranio Sakral](/img/kranio-sakral.jpg "Kranio Sakral behandling")
 
 
       KST er også med til at nedsætte stressen I kroppen. Dette er både en hjælp
@@ -70,6 +71,11 @@ special:
       fjerner spændinger og blokeringer i kroppen. 
   - overskrift: Børnefysioterapi
     body: >-
+      ![Børnefysioterapi behandling med Kranio
+      Sakral](/img/kranio-sakral-barn.jpg "Børnefysioterapi behandling med
+      Kranio Sakral")
+
+
       Husets fysioterapeut Kathrine har taget kurser indenfor Dynamic
       Neuromuscular stabilization, DNS. DNS er et behandlingskoncept, som har
       den naturlige udvikling hos børnene i tankerne. 
@@ -91,10 +97,6 @@ special:
       for øvelser og træning. Selv små justeringer i barnets bevægemønster kan
       give store positive udslag. Forældrene har en stor rolle i den videre
       træning, da de er sammen med børnene indtil næste behandling. 
-
-
-      ![Kranio Sakral Barn](/img/kranio-sakral-barn.jpg "Kranio Sakral Barn
-      behandling")
 
 
       Børns hjerner er endnu ikke fuldtudviklet, og derfor er det nemmere at
