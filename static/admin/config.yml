@@ -57,14 +57,16 @@ collections:
               label: "Lørdage",
               name: "saturdays",
               widget: "list",
-              field:
-                {
-                  Label: "Dato",
-                  name: "date",
-                  widget: "date",
-                  format: "DD/MM/YYYY",
-                  dateFormat: "DD/MM/YYYY",
-                },
+              fields:
+                [
+                  {
+                    Label: "Dato",
+                    name: "date",
+                    widget: "date",
+                    format: "DD/MM/YYYY",
+                    dateFormat: "DD/MM/YYYY",
+                  },
+                ],
             }
       - file: "src/pages/index.md"
         label: "Hovedside"

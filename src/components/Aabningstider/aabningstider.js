@@ -132,7 +132,7 @@ const aabningstider = () => {
                 open
                 close
               }
-              saturdays
+              
             }
           }
         }
@@ -142,7 +142,7 @@ const aabningstider = () => {
         return (
           <AaabningstiderTemplate
             aabningstider={markdownRemark.frontmatter.aabningstider}
-            saturdays={markdownRemark.frontmatter.saturdays}
+            saturdays={[]}
           />
         )
       }}
