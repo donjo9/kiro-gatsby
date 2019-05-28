@@ -43,7 +43,7 @@ export const IndexPageTemplate = props => {
       <CardComponent key={box.title + box.link}>
         <Focus>{box.title}</Focus>
         <Body>{box.body}</Body>
-        <Button style={{ marginTop: "auto" }} to={box.link}>
+        <Button style={{ marginTop: "auto" }} to={"/" + box.link}>
           {box.buttontext}
         </Button>
       </CardComponent>
