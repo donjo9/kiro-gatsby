@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 
 export const Card = styled.div`
-   
+
     position: relative;
     border-radius: 5px;
     background: var(--background);
@@ -17,7 +17,6 @@ export const Card = styled.div`
     flex-direction: column;
   
   &::before {
-    position: relative;
     content: "";
     position: absolute;
     top: -1px;
@@ -50,8 +49,18 @@ export const Card = styled.div`
   }
 `
 
+export const PseudoCard = styled.div`
+  display: flex;
+  position: relative;
+  z-index: 1;
+`
+
 const CardComponent = props => {
-  return <Card>{props.children}</Card>
+  return (
+    <PseudoCard>
+      <Card>{props.children}</Card>
+    </PseudoCard>
+  )
 }
 
 export default CardComponent

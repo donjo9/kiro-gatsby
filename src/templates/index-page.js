@@ -1,15 +1,16 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Aabningstider from "../components/Aabningstider/aabningstider"
-import CardComponent, { Card } from "../components/Cards/card"
+import CardComponent, { Card, PseudoCard } from "../components/Cards/card"
 import CardContainer from "../components/Cards/cardcontainer"
 import styled from "styled-components"
 import { Button } from "../components/buttons"
 import SEO from "../components/SEO"
 
-const CardTider = styled(Card)`
+const CardTider = styled(PseudoCard)`
   min-height: auto;
   grid-column: 1 / -1;
+  display: block;
   @media (min-width: 1510px) {
     position: absolute;
     left: 0;
@@ -54,7 +55,9 @@ export const IndexPageTemplate = props => {
       <CardContainer>
         {boxes}
         <CardTider>
-          <Aabningstider />
+          <Card>
+            <Aabningstider />
+          </Card>
         </CardTider>
       </CardContainer>
     </Index>
