@@ -1,3 +1,4 @@
 ---
-saturdays: [1]
+saturdays:
+  - 20/04/2019
 ---

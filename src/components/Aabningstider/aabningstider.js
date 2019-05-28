@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-import { StaticQuery, graphql } from "gatsby"
+import { StaticQuery, graphql, Link } from "gatsby"
 import { ButtonBase, hoverEffect } from "../buttons"
 const Aabningstider = styled.div`
    {
@@ -73,8 +73,9 @@ const ListContainer = styled.ul`
    {
     list-style-type: none;
     padding: 0;
+    margin: 10px 0;
     li:first-child {
-      margin-top: 20px;
+      margin-top: 10px;
     }
   }
 `
@@ -83,6 +84,10 @@ const Attention = styled.div`
   ${ButtonBase}
   ${hoverEffect}
   display: block;
+`
+
+const Tillaeg = styled(Link)`
+  color: white;
 `
 
 export const AaabningstiderTemplate = props => {
@@ -109,9 +114,16 @@ export const AaabningstiderTemplate = props => {
             Klik for datoer
           </Attention>
           <Loerdagsliste>
-            Følgende lørdage er der åben for akut opståede problemer i
-            bevægeapparatet
-            <ListContainer>{loerdage}</ListContainer>
+            <div>
+              <div>Disse lørdage er der åbent:</div>
+              <ListContainer>
+                {loerdage.length > 0 ? loerdage : "Ingen tider pt."}
+              </ListContainer>
+              <div>Ring: 29 84 41 12 mellem 9:00 og 10:00</div>
+              <div>
+                Tillæg iflg <Tillaeg to="/priser">overenskomst</Tillaeg>
+              </div>
+            </div>
           </Loerdagsliste>
         </label>
       </Loerdag>
@@ -132,7 +144,7 @@ const aabningstider = () => {
                 open
                 close
               }
-              
+              saturdays
             }
           }
         }
@@ -142,7 +154,7 @@ const aabningstider = () => {
         return (
           <AaabningstiderTemplate
             aabningstider={markdownRemark.frontmatter.aabningstider}
-            saturdays={[]}
+            saturdays={markdownRemark.frontmatter.saturdays}
           />
         )
       }}

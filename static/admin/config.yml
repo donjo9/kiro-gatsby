@@ -57,34 +57,14 @@ collections:
               label: "Lørdage",
               name: "saturdays",
               widget: "list",
-              fields:
-                [
-                  {
-                    Label: "Dato",
-                    name: "date",
-                    widget: "date",
-                    format: "DD/MM/YYYY",
-                    dateFormat: "DD/MM/YYYY",
-                  },
-                  {
-                    label: "Åben",
-                    name: "open",
-                    widget: "datetime",
-                    default: "08:00",
-                    format: "HH:mm",
-                    dateFormat: false,
-                    timeFormat: "H:mm",
-                  },
-                  {
-                    label: "Luk",
-                    name: "close",
-                    widget: "datetime",
-                    format: "HH:mm",
-                    dateFormat: false,
-                    timeFormat: "H:mm",
-                    default: "12:10",
-                  },
-                ],
+              field:
+                {
+                  Label: "Dato",
+                  name: "date",
+                  widget: "date",
+                  format: "DD/MM/YYYY",
+                  dateFormat: "DD/MM/YYYY",
+                },
             }
       - file: "src/pages/index.md"
         label: "Hovedside"
