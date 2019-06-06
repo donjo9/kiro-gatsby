@@ -72,6 +72,9 @@ special:
 
   - overskrift: Ældre
     body: >-
+      ## Få den rette behandling
+
+
       Vi har mulighed for at røntgenfotografere så vi kan undersøge, hvor megen
       slidgigt patienten har i ryg og hofter, inden vi vurderer, hvilken type
       behandling, vi kan give vedkommende. På røntgenoptagelser kan vi også se
