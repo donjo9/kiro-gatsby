@@ -5,7 +5,7 @@ special:
   - overskrift: Holdtræning
     body: >-
       ![Holdtræning i fysioterapi med bold hos Kiropraktorhuset
-      Slagelse](/img/brk5-bml.jpeg "Holdtræning")
+      Slagelse](/img/brk5-bml.jpeg "Holdtræning i fysioterapi")
 
 
       På klinikken har vi forskellige holdtræningstilbud. Dog har alle holdene
