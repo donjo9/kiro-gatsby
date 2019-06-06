@@ -90,6 +90,8 @@ SEO:
     Eksperter i kiropraktisk behandling af børn og ældre, samt
     chokbølgebehandling og laserbehandling
 ---
+## Kiropraktisk behandling af muskler og led 
+
 En kiropraktor er en autoriseret sundhedsperson, der beskæftiger sig med undersøgelse, diagnose, forebyggelse og behandling af smertetilstande og nedsat funktion i muskel- og skeletsystemet. Behandlingen består af flere elementer: information og rådgivning, manuel behandling, kiropraktisk manipulations-behandling, bløddelsbehandling, øvelser/genoptræning og forebyggelse.
 
 Alle kan som udgangspunkt tåle kiropraktisk behandling. Behandlingen tilpasses efter alder, størrelse og andre faktorer, som kiropraktoren er uddannet til at identificere efter en grundig sygehistorie og undersøgelse. I få tilfælde vil kiropraktoren slet ikke kunne behandle dig. f. eks. hvis vi opdager, brud, ledskred, infektion, enkelte gigtsygdomme, kræft eller eksempelvis nogle medfødte knogleanomalier. Ligeledes behandler vi ikke, hvis der er neurologiske udfald, som er i forværring. Din kiropraktor er specialist og derfor udannet til at identificere disse tilstande.
