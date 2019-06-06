@@ -86,8 +86,8 @@ special:
       ned langs rygsøjlen. 
 
 
-      ![Kranio-Sakral Terapi behandling](/img/kranio-sakral.jpg "Kranio-Sakral
-      Terapi behandling")
+      ![Fysioterapeut giver Kranio-Sakral Terapi behandling til patient
+      ](/img/kranio-sakral.jpg "Kranio-Sakral Terapi behandling")
 
 
       Indenfor KST arbejdes der med den kranio-sakrale rytme, som er en slags
