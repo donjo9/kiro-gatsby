@@ -11,9 +11,11 @@ special:
     enable: true
     teaser: "Zoneterapeuten specialiseret\_sig i zoneterapi til babyer. Din baby behøver ikke være ret gammel for at kunne modtage zoneterapi, det er ofte nemmere at behandle babyer, da de reagerer hurtigt på\_behandling. Zoneterapi er en god behandling til forebyggelse af sygdom uanset, hvor gamle børnene er."
 SEO:
-  seodescription: Zoneterapi
+  seodescription: >-
+    Eksperter i zoneterapi til voksne og børn. Zoneterapi kan lindre smerter,
+    fremme sundhed og behandle sygdomme. Book en tid i dag. 
   seotags:
     - tag: Zoneterapi
-  seotitle: Zoneterapi
+  seotitle: Zoneterapi - Kiropraktorhuset Slagelse
 ---
 Zoneterapi er for alle og kan også bruges til at vedligeholde et godt helbred. Det er en behandlingsmetode, hvor der med trykpåvirkning på og under fødderne søges at forbedre funktionen et andet sted på din krop.
