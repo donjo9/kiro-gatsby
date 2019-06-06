@@ -86,7 +86,9 @@ SEO:
     Vi er også medlem af Dansk Selskab for Kiropraktik og Klinisk Biomekanik.
   seotags:
     - tag: Kiropraktik
-  seotitle: Kiropraktik
+  seotitle: >-
+    Eksperter i kiropraktisk behandling af børn og ældre, samt
+    chokbølgebehandling og laserbehandling
 ---
 En kiropraktor er en autoriseret sundhedsperson, der beskæftiger sig med undersøgelse, diagnose, forebyggelse og behandling af smertetilstande og nedsat funktion i muskel- og skeletsystemet. Behandlingen består af flere elementer: information og rådgivning, manuel behandling, kiropraktisk manipulations-behandling, bløddelsbehandling, øvelser/genoptræning og forebyggelse.
 
