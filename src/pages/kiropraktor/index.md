@@ -3,7 +3,61 @@ templateKey: kiropraktor-page
 overskrift: Kiropraktik
 special:
   - overskrift: Babyer og børn
-    body: "Forstyrret søvn (svært ved at falde i søvn, sover dårligt, skriger i søvne, vågner brat)\r\n\nTræg mave (forstoppelse)\r\n\nEr urolig og ofte utilfreds.\r\n\nVanskeligheder med at holde hovedet i midten (efter 3 måneders alderen)\r\n\nVil ikke ligge på maven.\r\n\nSkæv stilling af hovedet (tvangsstilling/yndlingsstilling)\r\n\nAsymmetrisk og affladet baghoved, hvor håret er slidt asymmetrisk af.\r\n\nGnider baghovedet mod underlaget.\r\n\nAsymmetrisk hovedfacon, ansigtsasymmetri.\r\n\nLigger med hovedet meget bagover.\r\n\nEnsidig sovestilling, ligger som et C (banan)\r\n\nBevæger arm og ben mindre på én side.\r\n\nUmodne hofter, ofte på én side.\r\n\nFodfejlstilling.\r\n\nSkriger utrøsteligt.\r\n\nBarnet har en ømhed i nakken og reagerer negativt, når man rører ved nakken."
+    body: >-
+      ## Kiropraktisk behandling af spædbørn
+
+
+      symptomer: 
+
+
+      Forstyrret søvn (svært ved at falde i søvn, sover dårligt, skriger i
+      søvne, vågner brat)
+
+
+      Træg mave (forstoppelse)
+
+
+      Er urolig og ofte utilfreds.
+
+
+      Vanskeligheder med at holde hovedet i midten (efter 3 måneders alderen)
+
+
+      Vil ikke ligge på maven.
+
+
+      Skæv stilling af hovedet (tvangsstilling/yndlingsstilling)
+
+
+      Asymmetrisk og affladet baghoved, hvor håret er slidt asymmetrisk af.
+
+
+      Gnider baghovedet mod underlaget.
+
+
+      Asymmetrisk hovedfacon, ansigtsasymmetri.
+
+
+      Ligger med hovedet meget bagover.
+
+
+      Ensidig sovestilling, ligger som et C (banan)
+
+
+      Bevæger arm og ben mindre på én side.
+
+
+      Umodne hofter, ofte på én side.
+
+
+      Fodfejlstilling.
+
+
+      Skriger utrøsteligt.
+
+
+      Barnet har en ømhed i nakken og reagerer negativt, når man rører ved
+      nakken.
     enable: true
     teaser: >+
       Vi har taget specielle kurser indenfor behandling af spædbørn, og har
