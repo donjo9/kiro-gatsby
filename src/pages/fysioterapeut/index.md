@@ -189,4 +189,4 @@ SEO:
 
 I Kiropraktor Huset tilbyder vi fysioterapi, hvor hele din krop er i fokus. Et typisk behandlingsforløb kræver en ordentlig undersøgelse, hvor kroppen slavisk undersøges, hvorfor undersøges hele kroppen? Fordi at andre områder i din krop, kan give de begrænsninger og smerter, som du oplever. Her I huset arbejder vores fysioterapeut helheds orientere, kombinationen med manuel behandling og øvelser, er i vores overbevisning den bedste vej til målet. Alle patienttyper behandles her I huset uanset hvilken problematik der er tale om. Fysioterapeuten ligger sammen med dig en plan, for det videre forløb, og der er løbende evalueringer for at sikre, at du modtager den bedste kvalitet i behandlingen.  Læs mere herunder, hvad vores fysioterapeut tilbyder af ydelser til netop dig
 
-![](/img/fysioterapi-generelt.jpg)
+![Fysioterapeut behandler patient hos Kiropraktorhuset Slagelse](/img/fysioterapi-generelt.jpg)
