@@ -27,4 +27,6 @@ SEO:
     - tag: Massør
   seotitle: 'Massage af muskler og led. Massør hos Kiropraktorhuset Slagelse. '
 ---
+## Massage af muskler og led 
+
 Kiropraktorhuset i Slagelse tilbyder massage, der virker ved at gennemarbejde hver eneste muskel fra dens udspring til dens tilhæftning. Denne grundige bearbejdning, af musklerne medfører øget blodgennemstrømning i det masserede område. Derved stimuleres kredsløbet, og endorfin (kroppens naturlig morfin) udskilles for dermed at nedsætte smerten. Massagen virker smertelindrende på ømme og overbelastede muskler. Kroppens udskilning af affaldsstoffer øges, hvilket medfører større bevægelighed.
