@@ -66,14 +66,10 @@ boxes:
     link: /zoneterapeut
     title: Zoneterapi i den gode tone
 SEO:
-  seodescription: |-
-    Specialister i bevægeapparatet  
-    ÅBNINGSTIDER  
-    Mandag kl. 08.00 - 18.00
-    Tirsdag kl. 08.00 - 18.00
-    Onsdag kl. 08.00 - 18.00
-    Torsdag kl. 08.00 - 18.00
-    Fredag kl. 08.00 - 18.00
+  seodescription: >-
+    Kiropraktorhuset i Slagelse. Specialister i kiropraktik, fysioterapi,
+    zoneterapi, chokbølgebehandling, gravidmassage og børnemassage. Kontakt os i
+    dag. 
   seotags:
     - tag: KiropraktorHuset
   seotitle: KiropraktorHuset Slagelse - Book tid på 58 53 45 55
