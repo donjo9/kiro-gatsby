@@ -286,7 +286,7 @@ SEO:
     - tag: Fysioterapi
   seotitle: Klinikken
 ---
-**Vi er specialister i at behandle børn, unge, voksne og ældre.**
+## **Vi er specialister i at behandle børn, unge, voksne og ældre.**
 
 **Kiropraktoruddannelsen er en 5-årig universitetsuddannelse efterfulgt af 1 års turnus. Uddannelsen er på lige fod med den almene lægeuddannelse og der samlæses de første tre studieår.**
 
