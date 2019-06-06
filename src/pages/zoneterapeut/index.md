@@ -18,4 +18,6 @@ SEO:
     - tag: Zoneterapi
   seotitle: Zoneterapi - Kiropraktorhuset Slagelse
 ---
+## Zoneterapi til voksne og børn
+
 Zoneterapi er for alle og kan også bruges til at vedligeholde et godt helbred. Det er en behandlingsmetode, hvor der med trykpåvirkning på og under fødderne søges at forbedre funktionen et andet sted på din krop.
