@@ -174,7 +174,25 @@ special:
 
       Kalkskulder
   - overskrift: K-Laser
-    body: "Flere skader behandles med særdeles god effekt herunder sportsskader. Desuden kroniske gener så som tennisalbue, musearm, knæproblemer etc. Hvis du er i tvivl, er du velkommen til at ringe og spørge en af vores kiropraktorer.Laser kan bruges alene eller i kombination med anden kiropraktisk behandling. Der kan højst være tale om behandlingsreaktioner i form af en forøget irritation, uro og murren i det behandlede område. Dette er ganske normalt og aftager i løbet af 12-24 timer.\r\n\n\r\n\nHer på klinikken bruger vi den nye kraftfulde K-laser der kan yde op til 12 watt. Antallet af behandlinger er individuelt, men som udgangspunkt kræver akutte skader ca. 6 behandlinger og skader af mere kronisk karakter ca.10-12 behandlinger. Bivirkninger efter laserbehandling er sjældne og kortvarige. Den hyppigste er tiltagende ømhed/smerter dagen efter behandlingen pga. øget blodcirkulation I området."
+    body: >-
+      ## Laserbehandling med K-Laser
+
+
+      Flere skader behandles med særdeles god effekt herunder sportsskader.
+      Desuden kroniske gener så som tennisalbue, musearm, knæproblemer etc. Hvis
+      du er i tvivl, er du velkommen til at ringe og spørge en af vores
+      kiropraktorer.Laser kan bruges alene eller i kombination med anden
+      kiropraktisk behandling. Der kan højst være tale om behandlingsreaktioner
+      i form af en forøget irritation, uro og murren i det behandlede område.
+      Dette er ganske normalt og aftager i løbet af 12-24 timer.
+
+
+      Her på klinikken bruger vi den nye kraftfulde K-laser der kan yde op til
+      12 watt. Antallet af behandlinger er individuelt, men som udgangspunkt
+      kræver akutte skader ca. 6 behandlinger og skader af mere kronisk karakter
+      ca.10-12 behandlinger. Bivirkninger efter laserbehandling er sjældne og
+      kortvarige. Den hyppigste er tiltagende ømhed/smerter dagen efter
+      behandlingen pga. øget blodcirkulation I området.
     enable: true
     teaser: >-
       Laserbehandling virker smertelindrende og fremmer opheling af skader.
