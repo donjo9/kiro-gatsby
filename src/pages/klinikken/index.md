@@ -284,7 +284,7 @@ SEO:
     - tag: Kiropraktik
     - tag: Massage
     - tag: Fysioterapi
-  seotitle: 'Kiropraktorhuset Slagele er klinikken for hele familien '
+  seotitle: 'Kiropraktorhuset Slagelse er klinikken for hele familien '
 ---
 ## **Vi er specialister i at behandle børn, unge, voksne og ældre.**
 
