@@ -3,7 +3,26 @@ templateKey: massage-page
 overskrift: Massage
 special:
   - overskrift: Massage til folket
-    body: "Massage er effektiv hvis du lider af:\r\n\nInfiltrationer (myoser)\r\n\nUbalance i led og muskler\r\n\nStivhed i nakke og ryg, skulder/arm, ryg – og lændesmerter\r\n\nHovedpine og migræne\r\n\nSymptomer afledt af dårlige arbejdsstillinger, statisk arbejde m.m.\r\n\nSportsskader\r\n\nIskiassmerter\r\n\nTrætte og ømme muskler"
+    body: |-
+      ## Massage af specialiseret kiropraktor 
+
+      Massage er effektiv hvis du lider af:
+
+      Infiltrationer (myoser)
+
+      Ubalance i led og muskler
+
+      Stivhed i nakke og ryg, skulder/arm, ryg – og lændesmerter
+
+      Hovedpine og migræne
+
+      Symptomer afledt af dårlige arbejdsstillinger, statisk arbejde m.m.
+
+      Sportsskader
+
+      Iskiassmerter
+
+      Trætte og ømme muskler
     enable: true
     teaser: >-
       Massage kan kombines med akupunktur, og kan være et effektivt supplement
