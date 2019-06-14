@@ -18,5 +18,6 @@ aabningstider:
     open: '08:00'
 saturdays:
   - 01/06/2019
+  - 15/06/2019
 ---
 
