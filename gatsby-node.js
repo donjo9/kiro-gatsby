@@ -3,7 +3,7 @@ const remark = require("remark")
 const remarkHTML = require("remark-html")
 const { createFilePath } = require(`gatsby-source-filesystem`)
 const { StringToSlug } = require("./src/utilities/utils")
-const { fmImagesToRelative } = require('gatsby-remark-relative-images')
+const { fmImagesToRelative } = require("gatsby-remark-relative-images")
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
@@ -44,10 +44,16 @@ exports.createPages = ({ graphql, actions }) => {
                 body
                 teaser
                 enable
+                SEO {
+                  seodescription
+                  seotags {
+                    tag
+                  }
+                }
               }
               subtopic {
-                  title
-                  content
+                title
+                content
               }
             }
           }
@@ -59,7 +65,7 @@ exports.createPages = ({ graphql, actions }) => {
       let special = []
       if (node.frontmatter.special) {
         node.frontmatter.special.forEach(e => {
-          if(!e.enable) {
+          if (!e.enable) {
             return
           }
           const o = StringToSlug(e.overskrift)
@@ -78,31 +84,32 @@ exports.createPages = ({ graphql, actions }) => {
             context: {
               overskrift: e.overskrift,
               body: htmlBody,
+              SEO: e.SEO,
             },
           })
         })
       }
       let subtopic = []
-      if(node.frontmatter.subtopic) {
+      if (node.frontmatter.subtopic) {
         node.frontmatter.subtopic.forEach(e => {
-            const o = StringToSlug(e.title)
-            const htmlBody = remark()
-              .use(remarkHTML)
-              .processSync(e.content)
-              .toString()
-            subtopic.push({
-              path: node.fields.slug + o,
-              title: e.title,
-            })
-            createPage({
-              path: node.fields.slug + o,
-              component: path.resolve(`./src/templates/subtopics-page.js`),
-              context: {
-                title: e.title,
-                content: htmlBody,
-              },
-            })
+          const o = StringToSlug(e.title)
+          const htmlBody = remark()
+            .use(remarkHTML)
+            .processSync(e.content)
+            .toString()
+          subtopic.push({
+            path: node.fields.slug + o,
+            title: e.title,
           })
+          createPage({
+            path: node.fields.slug + o,
+            component: path.resolve(`./src/templates/subtopics-page.js`),
+            context: {
+              title: e.title,
+              content: htmlBody,
+            },
+          })
+        })
       }
       createPage({
         path: node.fields.slug,
@@ -114,7 +121,7 @@ exports.createPages = ({ graphql, actions }) => {
           special,
           subtopic,
           maxWidth: 400,
-          quality: 92
+          quality: 92,
         },
       })
     })
