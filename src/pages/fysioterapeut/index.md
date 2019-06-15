@@ -12,8 +12,8 @@ special:
       det tilfælles, at de er superviseret af vores fysioterapeut Kathrine. 
 
 
-      Kathrine har taget, diverse kurser indenfor stabilitetstræning af både
-      voksne og børn, samt kurser I det sunde åndedræt. 
+      Kathrine har taget diverse kurser indenfor stabilitetstræning af både
+      voksne og børn, samt kurser i det sunde åndedræt. 
 
 
       Læs herunder hvilke hold vi tilbyder. Har du spørgsmål til holdene så
@@ -68,8 +68,8 @@ special:
       På klinikken har vi forskellige holdtræningstilbud. Dog har alle holdene
       det tilfælles, at de er superviseret af vores fysioterapeut Kathrine. 
 
-      Kathrine har taget, diverse kurser indenfor stabilitetstræning af både
-      voksne og børn, samt kurser I det sunde åndedræt. 
+      Kathrine har taget diverse kurser indenfor stabilitetstræning af både
+      voksne og børn, samt kurser i det sunde åndedræt. 
 
       Læs herunder hvilke hold vi tilbyder. Har du spørgsmål til holdene så
       kontakt klinikken på 58 53 45 55. 
@@ -187,8 +187,8 @@ special:
       den naturlige udvikling hos børnene i tankerne. 
 SEO:
   seodescription: >-
-    Husets eneste fysioterapeut står klar til at vejlede dig. Fysioterapeuten
-    behandler med forskellige manuelle teknikker, så din krop bliver afspændt og
+    Husets fysioterapeut står klar til at vejlede dig. Fysioterapeuten behandler
+    med forskellige manuelle teknikker, så din krop bliver afspændt og
     afbalanceret
   seotags:
     - tag: Fysioterapi
@@ -196,6 +196,6 @@ SEO:
 ---
 ## Behandlingsforløb hos Kiropraktorhuset Slagelse
 
-I Kiropraktor Huset tilbyder vi fysioterapi, hvor hele din krop er i fokus. Et typisk behandlingsforløb kræver en ordentlig undersøgelse, hvor kroppen slavisk undersøges, hvorfor undersøges hele kroppen? Fordi at andre områder i din krop, kan give de begrænsninger og smerter, som du oplever. Her I huset arbejder vores fysioterapeut helheds orientere, kombinationen med manuel behandling og øvelser, er i vores overbevisning den bedste vej til målet. Alle patienttyper behandles her I huset uanset hvilken problematik der er tale om. Fysioterapeuten ligger sammen med dig en plan, for det videre forløb, og der er løbende evalueringer for at sikre, at du modtager den bedste kvalitet i behandlingen.  Læs mere herunder, hvad vores fysioterapeut tilbyder af ydelser til netop dig
+I Kiropraktor Huset tilbyder vi fysioterapi, hvor hele din krop er i fokus. Et typisk behandlingsforløb kræver en ordentlig undersøgelse. Hvorfor undersøges hele kroppen? Fordi at andre områder i din krop, kan give de begrænsninger og smerter, som du oplever. Her I huset arbejder vores fysioterapeut helhedsorienteret, kombinationen med manuel behandling og øvelser, er i vores overbevisning den bedste vej til målet. Alle patienttyper behandles her I huset uanset hvilken problematik der er tale om. Fysioterapeuten ligger sammen med dig en plan, for det videre forløb, og der er løbende evalueringer for at sikre, at du modtager den bedste kvalitet i behandlingen.  Læs mere herunder, hvad vores fysioterapeut tilbyder af ydelser til netop dig
 
 ![Fysioterapeut behandler patient hos Kiropraktorhuset Slagelse](/img/fysioterapi-generelt.jpg)
