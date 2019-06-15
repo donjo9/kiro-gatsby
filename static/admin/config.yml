@@ -162,6 +162,26 @@ collections:
                     widget: "boolean",
                     default: true,
                   },
+                  {
+                    label: "SEO",
+                    name: "SEO",
+                    widget: "object",
+                    fields:
+                      [
+                        {
+                          label: "Beskrivelse",
+                          name: "seodescription",
+                          widget: "text",
+                        },
+                        {
+                          label: "Tags",
+                          name: "seotags",
+                          widget: "list",
+                          fields:
+                            [{ label: "Tag", name: "tag", widget: "string" }],
+                        },
+                      ],
+                  },
                 ],
             }
           - {
@@ -215,6 +235,26 @@ collections:
                     name: "enable",
                     widget: "boolean",
                     default: true,
+                  },
+                  {
+                    label: "SEO",
+                    name: "SEO",
+                    widget: "object",
+                    fields:
+                      [
+                        {
+                          label: "Beskrivelse",
+                          name: "seodescription",
+                          widget: "text",
+                        },
+                        {
+                          label: "Tags",
+                          name: "seotags",
+                          widget: "list",
+                          fields:
+                            [{ label: "Tag", name: "tag", widget: "string" }],
+                        },
+                      ],
                   },
                 ],
             }
@@ -270,6 +310,26 @@ collections:
                     widget: "boolean",
                     default: true,
                   },
+                  {
+                    label: "SEO",
+                    name: "SEO",
+                    widget: "object",
+                    fields:
+                      [
+                        {
+                          label: "Beskrivelse",
+                          name: "seodescription",
+                          widget: "text",
+                        },
+                        {
+                          label: "Tags",
+                          name: "seotags",
+                          widget: "list",
+                          fields:
+                            [{ label: "Tag", name: "tag", widget: "string" }],
+                        },
+                      ],
+                  },
                 ],
             }
           - {
@@ -323,6 +383,26 @@ collections:
                     name: "enable",
                     widget: "boolean",
                     default: true,
+                  },
+                  {
+                    label: "SEO",
+                    name: "SEO",
+                    widget: "object",
+                    fields:
+                      [
+                        {
+                          label: "Beskrivelse",
+                          name: "seodescription",
+                          widget: "text",
+                        },
+                        {
+                          label: "Tags",
+                          name: "seotags",
+                          widget: "list",
+                          fields:
+                            [{ label: "Tag", name: "tag", widget: "string" }],
+                        },
+                      ],
                   },
                 ],
             }
