@@ -59,6 +59,10 @@ special:
 
       Holdet forløber over 6 gange á 60 min og koster 600 kr. Der ydes tilskud
       fra Danmark, hvis barnet er medlem.
+    SEO:
+      seodescription: Holdtræning for en styrket krop
+      seotags:
+        - tag: træning
     enable: true
     teaser: >-
       På klinikken har vi forskellige holdtræningstilbud. Dog har alle holdene
@@ -120,6 +124,8 @@ special:
       KST arbejder også med bindevævet, meridianbanerne og akupukturpunkter.
       Meridianbanerne er nogle energibaner i vores krop, som er koblet til
       organerne, derved kan man via KST også behandle de indre organer.
+    SEO:
+      seodescription: 'Kranio Sekral Terapi, den blide behandlingsform for store og små'
     enable: true
     teaser: >-
       Kranio-Sakral Terapi (KST) er en blid behandlingsform, som via lette tryk 
@@ -172,6 +178,8 @@ special:
       Ønsker du en screening af dit barn? Eller oplever du afvigelser fra
       normalen? Så er børnefysioterapi en af vejene til målet. Kontakt klinikken
       for at booke en tid eller gør det online her på siden.
+    SEO:
+      seodescription: Speciel blid behandlingsform til børn
     enable: true
     teaser: >-
       Husets fysioterapeut Kathrine har taget kurser indenfor Dynamic
