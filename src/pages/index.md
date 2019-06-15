@@ -22,12 +22,16 @@ boxes:
     link: /kiropraktor
     title: Kiropraktor
   - body: >-
-      Husets eneste fysioterapeut står klar til at vejlede dig. Fysioterapeuten
-      behandler med forskellige manuelle teknikker, så din krop bliver afspændt
-      og afbalanceret. Læs mere om de forskellige manuelle teknikker, og om
-      holdtræning ved at trykke herunder.
+      Husets fysioterapeut står klar til at vejlede dig. 
 
-      Der ydes tilskud til behandlinger, hvis du er medlem af Danmark
+      Fysioterapeuten har ikke overenskomst med sygesikringen, men priserne for
+      behandling og rådgivning er næsten de samme som ved fysioterapeuter med
+      ydernummer. Og så er ventetiden MEGET kortere.
+
+      Vi samarbejder med mange sundhedsordninger, der dækker for behandling uden
+      ydernummer.
+
+      Der ydes tilskud til behandlinger, hvis du er medlem af Danmark.
     buttontext: Læs mere!
     link: /fysioterapeut
     title: Fysioterapi
