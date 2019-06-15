@@ -23,11 +23,13 @@ special:
       Iskiassmerter
 
       Trætte og ømme muskler
+    SEO:
+      seodescription: Fysiurgisk massage
     enable: true
     teaser: >-
       Massage kan kombines med akupunktur, og kan være et effektivt supplement
       til din kiropraktiske behandling. Mandag er massør Heeli Ingemann fra
-      14-18 og torsdagKarsten Krygermeier 14-18. Vi har i klinikken et godt
+      14-17 og torsdag Karsten Krygermeier 14-18. Vi har i klinikken et godt
       samarbejde og kommunikation mellem kiropraktor og massør, hvilket betyder,
       at kiropraktoren, som har undersøgt dig, snakker med massøren om dine
       problemområder. Derfor kan du altid være sikker på, at du får den helt
