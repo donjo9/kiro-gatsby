@@ -1,4 +1,7 @@
 module.exports = {
+  siteMetadata: {
+    siteUrl: "https://www.kiropraktorklinik.dk",
+  },
   plugins: [
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
@@ -25,11 +28,11 @@ module.exports = {
     "gatsby-plugin-netlify",
     "gatsby-plugin-sharp",
     {
-        resolve: "gatsby-plugin-google-tagmanager",
-        options: {
-            id: "GTM-FF22QZW",
-            includeInDevelopment: false,
-        }
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "GTM-FF22QZW",
+        includeInDevelopment: false,
+      },
     },
     "gatsby-transformer-sharp",
     {
@@ -51,7 +54,7 @@ module.exports = {
               maxWidth: 750,
               linkImagesToOriginal: false,
               wrapperStyle: `border-radius: 10px; overflow: hidden;`,
-              quality: 75
+              quality: 75,
             },
           },
         ],
@@ -71,5 +74,6 @@ module.exports = {
         modulePath: `${__dirname}/src/cms/cms.js`,
       },
     },
+    `gatsby-plugin-sitemap`,
   ],
 }
