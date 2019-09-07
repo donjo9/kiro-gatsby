@@ -16,7 +16,6 @@ aabningstider:
   - close: '18:00'
     day: Fredag
     open: '08:00'
-saturdays:
-  - 29/06/2019
+saturdays: []
 ---
 
