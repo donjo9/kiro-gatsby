@@ -72,8 +72,8 @@ boxes:
 SEO:
   seodescription: >-
     Kiropraktorhuset i Slagelse. Specialister i kiropraktik, fysioterapi,
-    zoneterapi, chokbølgebehandling, gravidmassage og børnemassage. Kontakt os i
-    dag. 
+    massage, zoneterapi, chokbølgebehandling, gravidmassage og børnemassage.
+    Kontakt os i dag. 
   seotags:
     - tag: KiropraktorHuset
   seotitle: KiropraktorHuset Slagelse - Book tid på 58 53 45 55
