@@ -1,5 +1,6 @@
 ---
 templateKey: aabningstider-component
+subtitle: 'NYHED: Nu også åbent om lørdagen!'
 aabningstider:
   - close: '18:00'
     day: Mandag

@@ -4,6 +4,7 @@ import { StaticQuery, graphql, Link } from "gatsby"
 import { ButtonBase, hoverEffect } from "../buttons"
 const Aabningstider = styled.div`
    {
+    margin: auto 0px;
     background-color: var(--background);
     color: white;
     display: flex;
@@ -104,29 +105,38 @@ export const AaabningstiderTemplate = props => {
     <Aabningstider>
       <h2>Åbningstider</h2>
       <div className="tider">{tider}</div>
-
-      <Loerdag>
-        <LoerdagsInput type="checkbox" id="loerdage" />
-        <label htmlFor="loerdage">
-          <Attention>
-            Åbent udvalgte lørdage
-            <br />
-            Klik for datoer
-          </Attention>
-          <Loerdagsliste>
-            <div>
-              <div>Disse lørdage er der åbent:</div>
-              <ListContainer>
-                {loerdage.length > 0 ? loerdage : "Ingen tider pt."}
-              </ListContainer>
-              <div>Ring: 29 84 41 12 mellem 9:00 og 10:00</div>
+      <h4
+        style={{
+          maxWidth: "200px",
+          margin: props.subtitle === "" ? "0px" : "10px auto",
+        }}
+      >
+        {props.subtitle}
+      </h4>
+      {loerdage.length > 0 ? (
+        <Loerdag>
+          <LoerdagsInput type="checkbox" id="loerdage" />
+          <label htmlFor="loerdage">
+            <Attention>
+              Åbent udvalgte lørdage
+              <br />
+              Klik for datoer
+            </Attention>
+            <Loerdagsliste>
               <div>
-                Tillæg iflg <Tillaeg to="/priser">overenskomst</Tillaeg>
+                <div>Disse lørdage er der åbent:</div>
+                <ListContainer>
+                  {loerdage.length > 0 ? loerdage : "Ingen tider pt."}
+                </ListContainer>
+                <div>Ring: 29 84 41 12 mellem 9:00 og 10:00</div>
+                <div>
+                  Tillæg iflg <Tillaeg to="/priser">overenskomst</Tillaeg>
+                </div>
               </div>
-            </div>
-          </Loerdagsliste>
-        </label>
-      </Loerdag>
+            </Loerdagsliste>
+          </label>
+        </Loerdag>
+      ) : null}
     </Aabningstider>
   )
 }
@@ -139,6 +149,7 @@ const aabningstider = () => {
             frontmatter: { templateKey: { eq: "aabningstider-component" } }
           ) {
             frontmatter {
+              subtitle
               aabningstider {
                 day
                 open
@@ -155,6 +166,7 @@ const aabningstider = () => {
           <AaabningstiderTemplate
             aabningstider={markdownRemark.frontmatter.aabningstider}
             saturdays={markdownRemark.frontmatter.saturdays}
+            subtitle={markdownRemark.frontmatter.subtitle}
           />
         )
       }}
