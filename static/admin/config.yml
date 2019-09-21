@@ -20,6 +20,11 @@ collections:
               default: "aabningstider-component",
             }
           - {
+              label: "Overskrift",
+              name: "subtitle",
+              widget: "string"
+            }
+          - {
               label: "Åbningstider",
               name: "aabningstider",
               widget: "list",
@@ -31,7 +36,7 @@ collections:
                     widget: "select",
                     default: "Mandag",
                     options:
-                      ["Mandag", "Tirsdag", "Onsdag", "Torsdag", "Fredag"],
+                      ["Mandag", "Tirsdag", "Onsdag", "Torsdag", "Fredag", "Lørdag", "Søndag"],
                   },
                   {
                     label: "Åben",
