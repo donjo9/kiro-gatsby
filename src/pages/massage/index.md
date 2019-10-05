@@ -4,7 +4,7 @@ overskrift: Massage
 special:
   - overskrift: Massage til folket
     body: |-
-      ## Massage af specialiseret kiropraktor 
+      ## Massage af professionelle og dygtige massører
 
       Massage er effektiv hvis du lider af:
 
