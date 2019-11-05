@@ -10,7 +10,7 @@ const FooterContainer = styled.footer`
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     justify-self: center;
     align-items: center;
-    width: 100%;
+    width: 100vw;
   }
 `
 const FooterElement = styled.span`
