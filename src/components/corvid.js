@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 
 const CORVIDContainer = styled.div`
-  position: relative;  
+  position: relative;
   background-color: var(--background);
   box-shadow: 1px -1px 5px var(--highlight), -1px 1px 5px var(--highlight2);
   border-radius: 10px;
@@ -14,7 +14,7 @@ const CORVIDContainer = styled.div`
 const ModalView = styled.div`
   position: fixed;
   top: 0px;
-  
+
   background-color: rgba(150, 150, 150, 0.5);
   width: 100vw;
   height: 100vh;
@@ -24,9 +24,8 @@ const ModalView = styled.div`
 `
 
 const Corvid = props => {
-
   return (
-    <ModalView onClick={props.dismis}>  
+    <ModalView onClick={props.dismis}>
       <CORVIDContainer>
         <p>
           Kiropraktorhuset gør alt hvad vi kan for at stoppe smittespredning af
@@ -35,19 +34,18 @@ const Corvid = props => {
           med Sundhedsstyrelsens retningslinjer.{" "}
         </p>
         <p>
-          Har du smerter, der nedsætter din arbejdsevne, dit funktionsniveau
+          🗣 Har du smerter, der nedsætter din arbejdsevne, dit funktionsniveau
           eller din livskvalitet, vil du stadig kunne få tid til behandling.
         </p>
         <p>
-          Er du i et igangværende behandlingsforløb, hvor udsættelse af
+          🗣Er du i et igangværende behandlingsforløb, hvor udsættelse af
           yderligere behandling vurderes at kunne medføre forværring, fortsættes
           forløbet.
         </p>
         <h4>Derfor gør vi følgende:</h4>
 
         <ul>
-          <li>I øjeblikket er der en sekretær på telefonen fra 8-12.</li>
-          <li>Der er en kiropraktor klinikken fra 9-13.</li>
+          <li>I øjeblikket er telefonen åben dagligt 8-10.</li>
           <li>
             Send en mail til{" "}
             <a href="mailto:mail@kiropraktorklinik.dk">
