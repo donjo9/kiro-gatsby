@@ -23,50 +23,49 @@ const ModalView = styled.div`
   padding: 10px;
 `
 
-const Corvid = props => {
+const Corvid = (props) => {
   return (
     <ModalView onClick={props.dismis}>
       <CORVIDContainer>
         <p>
-          Kiropraktorhuset gør alt hvad vi kan for at stoppe smittespredning af
-          Corona/COVID-19 og samtidig hjælpe de af jer, der har brug for
-          nødvendig behandling. Vi har åbent for behandling i overensstemmelse
-          med Sundhedsstyrelsens retningslinjer.{" "}
+          Fra ‪mandag den 20. april kan Kiropraktorhuset Slagelse begynde at øge
+          aktiviteten frem mod mere sædvanligt niveau Det betyder, at vi
+          gradvist kan tage imod flere patienter. Der er dog stadig
+          begrænsninger. Alle patienter vil fortsat blive vurderet af en
+          kiropraktor, forud for at man kan modtage behandling i klinikken. Vi
+          følger Sundhedsstyrelsens anbefalinger nøje.
         </p>
+        <p>📞Telefonen 58534555 er åben mandag - fredag 8-13. Lørdag 8-12.</p>
         <p>
-          🗣 Har du smerter, der nedsætter din arbejdsevne, dit funktionsniveau
-          eller din livskvalitet, vil du stadig kunne få tid til behandling.
+          Udenfor telefontiden kan vi kontaktes på{" "}
+          <a href="mailto:mail@kiropraktorklinik.dk">
+            mail@kiropraktorklinik.dk
+          </a>
         </p>
-        <p>
-          🗣Er du i et igangværende behandlingsforløb, hvor udsættelse af
-          yderligere behandling vurderes at kunne medføre forværring, fortsættes
-          forløbet.
-        </p>
-        <h4>Derfor gør vi følgende:</h4>
+        <h4>Vi gør fortsat hvad vi kan for at minimere smittespredning:</h4>
 
         <ul>
-          <li>I øjeblikket er telefonen åben dagligt 8-10.</li>
           <li>
-            Send en mail til{" "}
-            <a href="mailto:mail@kiropraktorklinik.dk">
-              mail@kiropraktorklinik.dk
-            </a>{" "}
-            hvis du har spørgsmål eller vil ringes op.
-          </li>
-          <li>Du må ikke bare møde op på klinikken.</li>
-          <li>
-            Føler du dig syg, har feber eller hoste, skal du aflyse din tid.
+            Hvis du føler dig syg, har feber, hoster eller er forkølet, beder vi
+            dig blive hjemme.
           </li>
           <li>
-            Brug ikke mere tid end nødvendigt på klinikken. Ankom til din tid
-            rimeligt præcist.
+            Der er håndsprit indenfor hoveddøren og i receptionen. Afsprit
+            hænder både før og efter konsultation.
           </li>
-          <li>Tag ikke venner eller familie med.</li>
-          <li>Afsprit hænderne når du kommer til klinikken.</li>
-          <li>Hold afstand og undgå så vidt muligt at røre ved ting.</li>
+          <li>
+            Er du immunsvækket, ældre eller gravid skal du overveje, om du kan
+            vente med behandling.
+          </li>
+          <li>Kom til tiden, og så vidt muligt alene.</li>
+          <li>
+            Vi begrænser antallet af patienter som opholder sig i klinikken
+            samtidig. Hold afstand.
+          </li>
+          <li>Vi har fortsat fokus på høj hygiejne.</li>
         </ul>
-        <strong>VI PASSER PÅ HINANDEN</strong>
-        <p>De bedste hilsner fra Kiropraktorhuset</p>
+        <p> Massage er også muligt, ring og book en tid.</p>
+        <p>Vi glæder os til at tage imod dig</p>
       </CORVIDContainer>
     </ModalView>
   )
