@@ -26,7 +26,7 @@ const priser = () => {
         Honorarer og tilskud pr. 1. oktober 2019: Ifølge Landsoverenskomsten
         mellem Dansk Kiropraktor Forening og Regionernes Lønnings- og Takstnævn.
       </Body>
-      <ExtLink style={{textTransform: "uppercase", marginTop: "15px", display: "block"}}href="https://www.danskkiropraktorforening.dk/media/1592/speciale-53-honorar.pdf" target="_blank" rel="noopener norefferer">Klik for gældende priser</ExtLink>
+      <ExtLink style={{textTransform: "uppercase", marginTop: "15px", display: "block"}}href="https://www.danskkiropraktorforening.dk/media/1837/speciale-53-honorar-og-tilskud-pr-1-april-2020-inkl-ydelse-4110.pdf" target="_blank" rel="noopener norefferer">Klik for gældende priser</ExtLink>
     </Container>
   )
 }
