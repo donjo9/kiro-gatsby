@@ -28,44 +28,23 @@ const Corvid = (props) => {
     <ModalView onClick={props.dismis}>
       <CORVIDContainer>
         <p>
-          Fra ‪mandag den 20. april kan Kiropraktorhuset Slagelse begynde at øge
-          aktiviteten frem mod mere sædvanligt niveau Det betyder, at vi
-          gradvist kan tage imod flere patienter. Der er dog stadig
-          begrænsninger. Alle patienter vil fortsat blive vurderet af en
-          kiropraktor, forud for at man kan modtage behandling i klinikken. Vi
-          følger Sundhedsstyrelsens anbefalinger nøje.
+          For at holde smitterisikoen så lav som muligt beder vi om, at man
+          ankommer til den aftalte tid, og at man så vidt det er muligt kommer
+          uden pårørende. Børn må selvfølgelig gerne komme med enten mor eller
+          far. Andre pårørende kan blive bedt om at vente udenfor. På den måde
+          kan vi holde antallet af personer i venteværelset nede og derved
+          reducere smittefare.
         </p>
-        <p>📞Telefonen 58534555 er åben mandag - fredag 8-13. Lørdag 8-12.</p>
         <p>
-          Udenfor telefontiden kan vi kontaktes på{" "}
-          <a href="mailto:mail@kiropraktorklinik.dk">
-            mail@kiropraktorklinik.dk
-          </a>
+          Du må meget gerne benytte håndspritten i venteværelset. Det er der for
+          din og vores skyld.
         </p>
-        <h4>Vi gør fortsat hvad vi kan for at minimere smittespredning:</h4>
-
-        <ul>
-          <li>
-            Hvis du føler dig syg, har feber, hoster eller er forkølet, beder vi
-            dig blive hjemme.
-          </li>
-          <li>
-            Der er håndsprit indenfor hoveddøren og i receptionen. Afsprit
-            hænder både før og efter konsultation.
-          </li>
-          <li>
-            Er du immunsvækket, ældre eller gravid skal du overveje, om du kan
-            vente med behandling.
-          </li>
-          <li>Kom til tiden, og så vidt muligt alene.</li>
-          <li>
-            Vi begrænser antallet af patienter som opholder sig i klinikken
-            samtidig. Hold afstand.
-          </li>
-          <li>Vi har fortsat fokus på høj hygiejne.</li>
-        </ul>
-        <p> Massage er også muligt, ring og book en tid.</p>
-        <p>Vi glæder os til at tage imod dig</p>
+        <p>
+          Når du skal afregne beder vi om at du enten bruger Dankort eller andre
+          betalingskort eller mobilepay og ikke kontanter.
+        </p>
+        <p>Vi sørger for at hygiejnen er i top i hele klinikken.</p>
+        <p>For din og for vores sikkerhed!</p>
       </CORVIDContainer>
     </ModalView>
   )
