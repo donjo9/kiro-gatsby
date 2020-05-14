@@ -1,4 +1,4 @@
-import CMS from 'netlify-cms'
+import CMS from 'netlify-cms-app'
 
 import AaabningstiderPreview from './preview-templates/aabningstider-preview'
 
