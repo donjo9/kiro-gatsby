@@ -1,6 +1,6 @@
 ---
 templateKey: zoneterapeut-page
-overskrift: Zoneterapi
+overskrift: Chokbølgebehandling
 special: []
 SEO:
   seodescription: "Eksperter i chokbølgebehandling. Fokuserende og radierende.
