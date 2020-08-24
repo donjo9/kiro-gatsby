@@ -105,7 +105,7 @@ const Header = () => {
             <Link to="/massage">Massør</Link>
           </NavigationItem>
           <NavigationItem>
-            <Link to="/fysioterapeut">Fysioterapeut</Link>
+            <Link to="/chockwave">Chokbølge</Link>
           </NavigationItem>
           <NavigationItem>
             <Link to="/zoneterapeut">Zoneterapeut</Link>
