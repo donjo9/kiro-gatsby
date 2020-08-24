@@ -14,22 +14,16 @@ boxes:
       INGEN VENTETID!!
 
 
-      Vi ved at også du har en travl hverdag. Derfor bestræber vi os på at
-      overholde tiderne, så du ikke skal vente. Vi har for det meste tider samme
-      dag, eller senest dagen efter. Der kan selvfølgelig forekomme perioder,
-      hvor dette ikke er muligt pga ferie, sygdom osv.
+      Vi ved at også du har en travl hverdag. Derfor bestræber vi os på at overholde tiderne, så du ikke skal vente. Vi har for det meste tider samme dag, eller senest dagen efter. Der kan selvfølgelig forekomme perioder, hvor dette ikke er muligt pga ferie, sygdom osv.
     buttontext: Læs NU!
     link: /kiropraktor
     title: Kiropraktor
   - body: >-
       Husets fysioterapeut står klar til at vejlede dig. 
 
-      Fysioterapeuten har ikke overenskomst med sygesikringen, men priserne for
-      behandling og rådgivning er næsten de samme som ved fysioterapeuter med
-      ydernummer. Og så er ventetiden MEGET kortere.
+      Fysioterapeuten har ikke overenskomst med sygesikringen, men priserne for behandling og rådgivning er næsten de samme som ved fysioterapeuter med ydernummer. Og så er ventetiden MEGET kortere.
 
-      Vi samarbejder med mange sundhedsordninger, der dækker for behandling uden
-      ydernummer.
+      Vi samarbejder med mange sundhedsordninger, der dækker for behandling uden ydernummer.
 
       Der ydes tilskud til behandlinger, hvis du er medlem af Danmark.
     buttontext: Læs mere!
@@ -53,14 +47,10 @@ boxes:
       kroppens egen evne til at helbrede ubalancer.  
 
 
-      Zoneterapi er for alle og kan også bruges til at vedligeholde et godt
-      helbred. Det er en behandlingsmetode, hvor der med trykpåvirkning på og
-      under fødderne søges at forbedre funktionen et andet sted på din krop.
+      Zoneterapi er for alle og kan også bruges til at vedligeholde et godt helbred. Det er en behandlingsmetode, hvor der med trykpåvirkning på og under fødderne søges at forbedre funktionen et andet sted på din krop.
 
 
-      Zoneterapi har især en gavnlig virkning på moderne livsstilsygdomme, hvor
-      det ikke kun er en årsag - men er flere forskellige ubalancer. Derfor er
-      zoneterapi en meget populær behandlingsform. 
+      Zoneterapi har især en gavnlig virkning på moderne livsstilsygdomme, hvor det ikke kun er en årsag - men er flere forskellige ubalancer. Derfor er zoneterapi en meget populær behandlingsform. 
 
       Zoneterapien kan styrke din krop og psyke og lindre bivirkninger.
 
@@ -68,14 +58,11 @@ boxes:
 
     buttontext: Læs mere!
     link: /zoneterapeut
-    title: Zoneterapi i den gode tone
+    title: Chokbølgebehandling
 SEO:
-  seodescription: >-
-    Kiropraktorhuset i Slagelse. Specialister i kiropraktik, fysioterapi,
-    massage, zoneterapi, chokbølgebehandling, gravidmassage og børnemassage.
-    Kontakt os i dag. 
+  seodescription: "Kiropraktorhuset i Slagelse. Specialister i kiropraktik,
+    fysioterapi, massage, chokbølgebehandling. Kontakt os i dag. "
   seotags:
     - tag: KiropraktorHuset
   seotitle: KiropraktorHuset Slagelse - Book tid på 58 53 45 55
 ---
-
