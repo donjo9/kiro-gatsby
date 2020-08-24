@@ -1,5 +1,5 @@
 ---
-templateKey: zoneterapeut-page
+templateKey: chockwave-page
 overskrift: Chokbølgebehandling
 special:
   - enable: false

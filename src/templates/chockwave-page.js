@@ -3,7 +3,7 @@ import { graphql } from "gatsby"
 import FagTemplate from "./fag-template"
 import SEO from "../components/SEO"
 
-const zoneterapeut = ({ data, pageContext }) => {
+const chockwave = ({ data, pageContext }) => {
   const { edges } = data.Ansatte
   let ansatte = []
   if (edges) {
@@ -25,13 +25,13 @@ const zoneterapeut = ({ data, pageContext }) => {
   )
 }
 
-export default zoneterapeut
+export default chockwave
 
 export const pageQuery = graphql`
   query Zone($maxWidth: Int, $quality: Int) {
     Ansatte: allMarkdownRemark(
       filter: {
-        frontmatter: { type: { eq: "Zoneterapeut" }, enable: { eq: true } }
+        frontmatter: { type: { eq: "Chockwave" }, enable: { eq: true } }
         fields: { type: { eq: "data" }, slug: { regex: "$/ansatte/" } }
       }
     ) {
@@ -52,7 +52,7 @@ export const pageQuery = graphql`
       }
     }
     Content: markdownRemark(
-      frontmatter: { templateKey: { eq: "zoneterapeut-page" } }
+      frontmatter: { templateKey: { eq: "chockwave-page" } }
     ) {
       html
       frontmatter {
