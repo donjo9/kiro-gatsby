@@ -105,10 +105,10 @@ const Header = () => {
             <Link to="/massage">Massør</Link>
           </NavigationItem>
           <NavigationItem>
-            <Link to="/chockwave">Chokbølge</Link>
+            <Link to="/fysioterapeut">Fysioterapeut</Link>
           </NavigationItem>
           <NavigationItem>
-            <Link to="/zoneterapeut">Zoneterapeut</Link>
+            <Link to="/chockwave">Chokbølge</Link>
           </NavigationItem>
           <NavigationItem>
             <Link to="/priser">Priser</Link>
