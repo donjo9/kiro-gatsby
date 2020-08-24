@@ -4,7 +4,7 @@ overskrift: Chokbølgebehandling
 special:
   - enable: true
     teaser: "\n"
-    overskrift: "## Chokbølgebehandling til overbelastningsskader"
+    overskrift: Chokbølgebehandling til overbelastningsskader
     body: >-
       Teknik:
 
