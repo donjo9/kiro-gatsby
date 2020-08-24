@@ -30,9 +30,9 @@ boxes:
     link: /fysioterapeut
     title: Fysioterapi
   - body: >
-      Kiropraktorhuset i Slagelse tilbyder massage, der virker ved at
-      gennemarbejde hver eneste muskel fra dens udspring til dens tilhæftning.
-      Denne grundige bearbejdning, af musklerne medfører øget
+      Kiropraktorhuset i Slagelse tilbyder dybdegående fysiurgisk massage, der
+      virker ved at gennemarbejde hver eneste muskel fra dens udspring til dens
+      tilhæftning. Denne grundige bearbejdning, af musklerne medfører øget
       blodgennemstrømning i det masserede område. Derved stimuleres kredsløbet,
       og endorfin (kroppens naturlig morfin) udskilles for dermed at nedsætte
       smerten. Massagen virker smertelindrende på ømme og overbelastede muskler.
@@ -40,7 +40,7 @@ boxes:
       bevægelighed.
     buttontext: Læs mere!
     link: /massage
-    title: Massage med mening
+    title: Massage
   - body: >+
       CHOKBØLGE-behandling i Slagelse
 
