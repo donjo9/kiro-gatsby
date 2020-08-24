@@ -42,22 +42,40 @@ boxes:
     link: /massage
     title: Massage med mening
   - body: >+
-      Zoneterapi sætter gang i kroppens selvhelbredende kræfter. Der arbejdes
-      med hele kroppen med fokus på funktion, forstyrrelser, årsagerne og
-      kroppens egen evne til at helbrede ubalancer.  
+      CHOKBØLGE-behandling i Slagelse
+
+      Kiropraktor Bjarne Halvorsen er tilknyttet klinikken som chokbølgebehandler.
 
 
-      Zoneterapi er for alle og kan også bruges til at vedligeholde et godt helbred. Det er en behandlingsmetode, hvor der med trykpåvirkning på og under fødderne søges at forbedre funktionen et andet sted på din krop.
+      Behandlingen kan anbefales ved længerevarende smerter i og omkring led, sener, ledbånd, ledkapsler og muskler og ved smertefulde ardannelser efter skader eller operationer.
 
 
-      Zoneterapi har især en gavnlig virkning på moderne livsstilsygdomme, hvor det ikke kun er en årsag - men er flere forskellige ubalancer. Derfor er zoneterapi en meget populær behandlingsform. 
+      Specifikt:
 
-      Zoneterapien kan styrke din krop og psyke og lindre bivirkninger.
+      Hælspore
 
-      Danmark yder tilskud, hvis du er medlem.
+      Akillessene lidelser
+
+      Skinnebensbetændelse
+
+      Springerknæ
+
+      Løberknæ
+
+      Osgood-Schlatters syge
+
+      Trochanter Bursit
+
+      Tennis-, golf- og musearm
+
+      Biceps- og supraspinatus-tendinit
+
+      Frossen skulder
+
+      Kalkskulde
 
     buttontext: Læs mere!
-    link: /zoneterapeut
+    link: /chokbølge
     title: Chokbølgebehandling
 SEO:
   seodescription: "Kiropraktorhuset i Slagelse. Specialister i kiropraktik,
