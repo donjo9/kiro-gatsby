@@ -1,6 +1,6 @@
 ---
 name: Louise Augustesen
-img: img/louise-hjemmeside.jpg
+img: /img/louise-hjemmeside.jpg
 description: >+
   Louise Augustesen er 27 år.
 
