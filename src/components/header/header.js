@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
-import LogoPath from "../../../static/img/logo-2.png"
+import LogoPath from "../../../static/img/logo.png"
 import { ButtonBase, hoverEffect } from "../buttons"
 
 const HeaderContainer = styled.header`
@@ -13,6 +13,7 @@ const HeaderContainer = styled.header`
     flex-direction: column;
     @media screen and (min-width: 1306px) {
       flex-direction: row;
+      align-items: flex-end;
     }
   }
 `
@@ -21,8 +22,7 @@ const LogoLink = styled(Link)`
 `
 const Logo = styled.img`
    {
-    filter: invert(1);
-    max-width: 100%;
+    max-width: 35rem;
     margin: auto;
   }
 `
@@ -80,7 +80,6 @@ const Booking = styled.a`
   ${ButtonBase}
   margin: 1em 0;
   max-height: 2.375em;
-  align-self: center;
   font-size: 1.2rem;
   text-align: center;
   text-transform: uppercase;
