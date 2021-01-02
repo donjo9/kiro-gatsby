@@ -70,7 +70,7 @@ boxes:
 
       Frossen skulder
 
-      Kalkskulde
+      Kalkskulder
 
     buttontext: Læs mere!
     link: /chokbølge
