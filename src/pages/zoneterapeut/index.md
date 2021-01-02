@@ -1,4 +1,5 @@
 ---
+templateKey:chockwave-page
 overskrift: CHOKBØLGE-behandling i Slagelse
 SEO:
   seotitle: Chokbølge i Slagelse
