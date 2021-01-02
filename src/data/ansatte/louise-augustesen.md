@@ -15,5 +15,5 @@ description: >+
   Brænder for at hjælpe folk med deres problematikker. 
 
 type: Massør
-enable: true
+enable: false
 ---
