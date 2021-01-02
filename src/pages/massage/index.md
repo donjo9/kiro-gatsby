@@ -2,7 +2,7 @@
 templateKey: massage-page
 overskrift: Massage
 special:
-  - overskrift: Massage til folket
+  - overskrift: Massage i Slagelse
     body: |-
       ## Massage af professionelle og dygtige massører
 
@@ -26,18 +26,18 @@ special:
     SEO:
       seodescription: Fysiurgisk massage
     enable: true
-    teaser: "Massage kan kombines med akupunktur, og kan være et effektivt
-      supplement til din kiropraktiske behandling. Vi har 3 massører på
-      klinikken: Heeli Ingemann, Helle Lykke og Louise Augustesen. Vi har i
-      klinikken et godt samarbejde og kommunikation mellem kiropraktor og
-      massør, hvilket betyder, at kiropraktoren, som har undersøgt dig, snakker
-      med massøren om dine problemområder. Derfor kan du altid være sikker på,
-      at du får den helt rigtige behandling for netop dit problem. Massøren
-      tilpasser sig det enkelte menneske, og sammensætter behandlingen i forhold
-      til klientens fysiske og psykiske tilstand. I Kiropraktorhuset tilsigter
-      vi at kigge helhedsorienteret på kroppen, dvs. at vi ikke blot behandler
-      symptomatisk, men finder og behandler ubalancerne i kroppen, og forholder
-      os til evt. årsager og sygdomme."
+    teaser: "Massage kan kombineres med akupunktur, og kan være et effektivt
+      supplement til din kiropraktiske behandling. Vi har 2 massører på
+      klinikken: Heeli Ingemann og Helle Lykke. Vi har i klinikken et godt
+      samarbejde og kommunikation mellem kiropraktor og massør, hvilket betyder,
+      at kiropraktoren, som har undersøgt dig, snakker med massøren om dine
+      problemområder. Derfor kan du altid være sikker på, at du får den helt
+      rigtige behandling for netop dit problem. Massøren tilpasser sig det
+      enkelte menneske, og sammensætter behandlingen i forhold til klientens
+      fysiske og psykiske tilstand. I Kiropraktorhuset tilsigter vi at kigge
+      helhedsorienteret på kroppen, dvs. at vi ikke blot behandler symptomatisk,
+      men finder og behandler ubalancerne i kroppen, og forholder os til evt.
+      årsager og sygdomme."
 SEO:
   seodescription: "Massage til muskler og led hos Kiropraktorhuset Slagelse. Har
     du ømme muskler, en sportsskade, hovedpine, stivhed i nakke og ryg eller
