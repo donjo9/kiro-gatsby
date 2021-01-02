@@ -44,8 +44,6 @@ boxes:
   - body: >+
       CHOKBØLGE-behandling i Slagelse
 
-      Kiropraktor Bjarne Halvorsen er tilknyttet klinikken som chokbølgebehandler.
-
 
       Behandlingen kan anbefales ved længerevarende smerter i og omkring led, sener, ledbånd, ledkapsler og muskler og ved smertefulde ardannelser efter skader eller operationer.
 
