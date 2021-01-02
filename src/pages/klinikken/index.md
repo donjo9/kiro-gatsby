@@ -181,9 +181,9 @@ SEO:
     alle patienter med det samme problem har de samme behov for behandling.
   seotags:
     - tag: Chokbølge
-    - tag: Kiropraktik
-    - tag: Massage
-    - tag: Fysioterapi
+    - tag: Kiropraktor Slagelse
+    - tag: Massage Slagelse
+    - tag: Fysioterapi Slagelse
   seotitle: "Kiropraktorhuset Slagelse er klinikken for hele familien "
 ---
 ## **Vi er specialister i at behandle børn, unge, voksne og ældre.**
