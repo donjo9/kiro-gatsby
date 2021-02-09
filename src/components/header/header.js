@@ -22,7 +22,7 @@ const LogoLink = styled(Link)`
 `
 const Logo = styled.img`
    {
-    max-width: 35rem;
+    max-width: min(80vw, 35rem);
     margin: auto;
   }
 `
