@@ -30,7 +30,7 @@ const priser = () => {
           marginTop: "15px",
           display: "block",
         }}
-        href="https://www.danskkiropraktorforening.dk/media/2034/speciale-53-honorar-og-tilskud-seneste.pdf"
+        href="https://www.danskkiropraktorforening.dk/media/2269/honorartabel-speciale-53-honorar-og-tilskud-pr-1-april-2021.pdf"
         target="_blank"
         rel="noopener norefferer"
       >
