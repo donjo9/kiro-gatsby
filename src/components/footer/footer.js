@@ -24,13 +24,17 @@ const Footer = () => {
   return (
     <FooterContainer>
       <FooterElement>KiropraktorHuset Slagelse</FooterElement>
-      <FooterElement>Sct. Mikkelsgade 4</FooterElement>
+      <FooterElement>Sorøvej 9C</FooterElement>
       <FooterElement>4200 Slagelse</FooterElement>
       <FooterElement>Tlf: 58 53 45 55</FooterElement>
       <FooterElement>mail@kiropraktorklinik.dk</FooterElement>
       <FooterElement>
-        <a href="https://www.facebook.com/KiropraktorhusetSlagelse/"  target="_blank" rel="noopener noreferrer">
-          <img src={Facebook} alt="Facebook" width="50px"/>
+        <a
+          href="https://www.facebook.com/KiropraktorhusetSlagelse/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={Facebook} alt="Facebook" width="50px" />
         </a>
       </FooterElement>
     </FooterContainer>
